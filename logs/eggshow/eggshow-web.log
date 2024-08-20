@@ -1,0 +1,483 @@
+2024-08-20 15:56:01,538 WARN 22832 [-/127.0.0.1/-/2ms POST /] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2024-08-20 15:56:01,540 WARN 22832 [-/127.0.0.1/-/4ms POST /] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (D:\nodepj\eggpj\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\nodepj\eggpj\node_modules\egg-security\app\extend\context.js:165:32)
+    at csrf (D:\nodepj\eggpj\node_modules\egg-security\lib\middlewares\csrf.js:37:9)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at D:\nodepj\eggpj\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at session (D:\nodepj\eggpj\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\nodepj\eggpj\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+message: "missing csrf token"
+pid: 22832
+hostname: shenxi-wkpc
+
+2024-08-20 15:57:40,291 WARN 2100 [-/127.0.0.1/-/6ms POST /user/create?name=234&idcard=34234] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2024-08-20 15:57:40,293 WARN 2100 [-/127.0.0.1/-/8ms POST /user/create?name=234&idcard=34234] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\nodepj\eggpj\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\nodepj\eggpj\node_modules\egg-security\app\extend\context.js:165:32)
+    at csrf (D:\nodepj\eggpj\node_modules\egg-security\lib\middlewares\csrf.js:37:9)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at D:\nodepj\eggpj\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at session (D:\nodepj\eggpj\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\nodepj\eggpj\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 2100
+hostname: shenxi-wkpc
+
+2024-08-20 15:58:18,456 WARN 2100 [-/127.0.0.1/-/1ms POST /user/create1?name=234&idcard=34234] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2024-08-20 15:58:18,457 WARN 2100 [-/127.0.0.1/-/1ms POST /user/create1?name=234&idcard=34234] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\nodepj\eggpj\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\nodepj\eggpj\node_modules\egg-security\app\extend\context.js:165:32)
+    at csrf (D:\nodepj\eggpj\node_modules\egg-security\lib\middlewares\csrf.js:37:9)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at D:\nodepj\eggpj\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at session (D:\nodepj\eggpj\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\nodepj\eggpj\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 2100
+hostname: shenxi-wkpc
+
+2024-08-20 15:58:21,946 WARN 2100 [-/127.0.0.1/-/1ms POST /user/create?name=234&idcard=34234] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2024-08-20 15:58:21,947 WARN 2100 [-/127.0.0.1/-/2ms POST /user/create?name=234&idcard=34234] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\nodepj\eggpj\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\nodepj\eggpj\node_modules\egg-security\app\extend\context.js:165:32)
+    at csrf (D:\nodepj\eggpj\node_modules\egg-security\lib\middlewares\csrf.js:37:9)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at D:\nodepj\eggpj\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at session (D:\nodepj\eggpj\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\nodepj\eggpj\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 2100
+hostname: shenxi-wkpc
+
+2024-08-20 15:59:32,484 ERROR 7392 [-/127.0.0.1/-/6ms GET /user/create?name=1&idcard=1] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at UserController.create (D:\nodepj\eggpj\app\controller\user.js:8:45)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\nodepj\eggpj\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 7392
+hostname: shenxi-wkpc
+
+2024-08-20 16:06:02,355 ERROR 3740 [-/127.0.0.1/-/7ms GET /user/create?name=1&idcard=1] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at UserController.create (D:\nodepj\eggpj\app\controller\user.js:8:45)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\nodepj\eggpj\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 3740
+hostname: shenxi-wkpc
+
+2024-08-20 16:06:13,773 WARN 3740 [-/127.0.0.1/-/1ms POST /user/create?name=234&idcard=34234] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2024-08-20 16:06:13,774 WARN 3740 [-/127.0.0.1/-/2ms POST /user/create?name=234&idcard=34234] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\nodepj\eggpj\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\nodepj\eggpj\node_modules\egg-security\app\extend\context.js:165:32)
+    at csrf (D:\nodepj\eggpj\node_modules\egg-security\lib\middlewares\csrf.js:37:9)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at D:\nodepj\eggpj\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at session (D:\nodepj\eggpj\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\nodepj\eggpj\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 3740
+hostname: shenxi-wkpc
+
+2024-08-20 16:06:26,349 WARN 3740 [-/127.0.0.1/-/0ms POST /user/create?name=234&idcard=34234] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2024-08-20 16:06:26,350 WARN 3740 [-/127.0.0.1/-/1ms POST /user/create?name=234&idcard=34234] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\nodepj\eggpj\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\nodepj\eggpj\node_modules\egg-security\app\extend\context.js:165:32)
+    at csrf (D:\nodepj\eggpj\node_modules\egg-security\lib\middlewares\csrf.js:37:9)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at D:\nodepj\eggpj\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at session (D:\nodepj\eggpj\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\nodepj\eggpj\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 3740
+hostname: shenxi-wkpc
+
+2024-08-20 16:06:46,514 WARN 3740 [-/127.0.0.1/-/0ms POST /user/create?name=234&idcard=34234] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2024-08-20 16:06:46,515 WARN 3740 [-/127.0.0.1/-/1ms POST /user/create?name=234&idcard=34234] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\nodepj\eggpj\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\nodepj\eggpj\node_modules\egg-security\app\extend\context.js:165:32)
+    at csrf (D:\nodepj\eggpj\node_modules\egg-security\lib\middlewares\csrf.js:37:9)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at D:\nodepj\eggpj\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at session (D:\nodepj\eggpj\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\nodepj\eggpj\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 3740
+hostname: shenxi-wkpc
+
+2024-08-20 16:07:06,435 WARN 3740 [-/127.0.0.1/-/0ms POST /user/create] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2024-08-20 16:07:06,436 WARN 3740 [-/127.0.0.1/-/1ms POST /user/create] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\nodepj\eggpj\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\nodepj\eggpj\node_modules\egg-security\app\extend\context.js:165:32)
+    at csrf (D:\nodepj\eggpj\node_modules\egg-security\lib\middlewares\csrf.js:37:9)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at D:\nodepj\eggpj\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at session (D:\nodepj\eggpj\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\nodepj\eggpj\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 3740
+hostname: shenxi-wkpc
+
+2024-08-20 16:07:29,460 WARN 3740 [-/127.0.0.1/-/16ms POST /user/create] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2024-08-20 16:07:29,461 WARN 3740 [-/127.0.0.1/-/17ms POST /user/create] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\nodepj\eggpj\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\nodepj\eggpj\node_modules\egg-security\app\extend\context.js:165:32)
+    at csrf (D:\nodepj\eggpj\node_modules\egg-security\lib\middlewares\csrf.js:37:9)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at D:\nodepj\eggpj\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at session (D:\nodepj\eggpj\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\nodepj\eggpj\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 3740
+hostname: shenxi-wkpc
+
+2024-08-20 16:08:46,774 WARN 3740 [-/127.0.0.1/-/1ms POST /user/create] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2024-08-20 16:08:46,774 WARN 3740 [-/127.0.0.1/-/1ms POST /user/create] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\nodepj\eggpj\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\nodepj\eggpj\node_modules\egg-security\app\extend\context.js:165:32)
+    at csrf (D:\nodepj\eggpj\node_modules\egg-security\lib\middlewares\csrf.js:37:9)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at D:\nodepj\eggpj\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at session (D:\nodepj\eggpj\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\nodepj\eggpj\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 3740
+hostname: shenxi-wkpc
+
+2024-08-20 16:09:06,363 WARN 3428 [-/127.0.0.1/-/16ms POST /user/create] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2024-08-20 16:09:06,365 WARN 3428 [-/127.0.0.1/-/18ms POST /user/create] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\nodepj\eggpj\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\nodepj\eggpj\node_modules\egg-security\app\extend\context.js:165:32)
+    at csrf (D:\nodepj\eggpj\node_modules\egg-security\lib\middlewares\csrf.js:37:9)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at D:\nodepj\eggpj\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at session (D:\nodepj\eggpj\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\nodepj\eggpj\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 3428
+hostname: shenxi-wkpc
+
+2024-08-20 16:09:12,253 WARN 3428 [-/127.0.0.1/-/1ms POST /user/create] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2024-08-20 16:09:12,254 WARN 3428 [-/127.0.0.1/-/2ms POST /user/create] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\nodepj\eggpj\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\nodepj\eggpj\node_modules\egg-security\app\extend\context.js:165:32)
+    at csrf (D:\nodepj\eggpj\node_modules\egg-security\lib\middlewares\csrf.js:37:9)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at D:\nodepj\eggpj\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at session (D:\nodepj\eggpj\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\nodepj\eggpj\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 3428
+hostname: shenxi-wkpc
+
+2024-08-20 16:09:38,535 WARN 10680 [-/127.0.0.1/-/18ms POST /user/create] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2024-08-20 16:09:38,537 WARN 10680 [-/127.0.0.1/-/20ms POST /user/create] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\nodepj\eggpj\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\nodepj\eggpj\node_modules\egg-security\app\extend\context.js:165:32)
+    at csrf (D:\nodepj\eggpj\node_modules\egg-security\lib\middlewares\csrf.js:37:9)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at D:\nodepj\eggpj\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at session (D:\nodepj\eggpj\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\nodepj\eggpj\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 10680
+hostname: shenxi-wkpc
+
+2024-08-20 16:09:44,819 WARN 10680 [-/127.0.0.1/-/2ms POST /user/create] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2024-08-20 16:09:44,820 WARN 10680 [-/127.0.0.1/-/3ms POST /user/create] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\nodepj\eggpj\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\nodepj\eggpj\node_modules\egg-security\app\extend\context.js:165:32)
+    at csrf (D:\nodepj\eggpj\node_modules\egg-security\lib\middlewares\csrf.js:37:9)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at D:\nodepj\eggpj\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at session (D:\nodepj\eggpj\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\nodepj\eggpj\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 10680
+hostname: shenxi-wkpc
+
+2024-08-20 16:10:43,627 ERROR 12580 [-/127.0.0.1/-/19ms POST /user/create] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at UserController.create (D:\nodepj\eggpj\app\controller\user.js:8:45)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\nodepj\eggpj\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 12580
+hostname: shenxi-wkpc
+
+2024-08-20 16:11:14,428 ERROR 12580 [-/127.0.0.1/-/3ms POST /user/create] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at UserController.create (D:\nodepj\eggpj\app\controller\user.js:8:45)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\nodepj\eggpj\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 12580
+hostname: shenxi-wkpc
+
+2024-08-20 16:18:56,967 ERROR 10776 [-/127.0.0.1/-/18ms POST /user/create] nodejs.ReferenceError: UserService is not defined
+    at UserController.create (D:\nodepj\eggpj\app\controller\user.js:9:27)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\nodepj\eggpj\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 10776
+hostname: shenxi-wkpc
+
+2024-08-20 16:19:20,448 ERROR 9368 [-/127.0.0.1/-/20ms POST /user/create] nodejs.TypeError: db.insert(...).into is not a function
+    at UserService.create (D:\nodepj\eggpj\app\service\user.js:10:48)
+    at UserController.create (D:\nodepj\eggpj\app\controller\user.js:13:40)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\nodepj\eggpj\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 9368
+hostname: shenxi-wkpc
+
+2024-08-20 16:20:23,625 ERROR 9368 [-/127.0.0.1/-/1ms GET /user/create?name=1&idcard=1] nodejs.TypeError: db.insert(...).into is not a function
+    at UserService.create (D:\nodepj\eggpj\app\service\user.js:10:48)
+    at UserController.create (D:\nodepj\eggpj\app\controller\user.js:13:40)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\nodepj\eggpj\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 9368
+hostname: shenxi-wkpc
+
+2024-08-20 16:31:01,379 ERROR 20648 [-/127.0.0.1/-/19ms POST /user/create] nodejs.TypeError: db.insert(...).values is not a function
+    at UserService.create (D:\nodepj\eggpj\app\service\user.js:10:48)
+    at UserController.create (D:\nodepj\eggpj\app\controller\user.js:13:40)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\nodepj\eggpj\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 20648
+hostname: shenxi-wkpc
+
+2024-08-20 16:31:28,097 ERROR 16920 [-/127.0.0.1/-/19ms POST /user/create] nodejs.TypeError: db.insert(...).into is not a function
+    at UserService.create (D:\nodepj\eggpj\app\service\user.js:10:48)
+    at UserController.create (D:\nodepj\eggpj\app\controller\user.js:13:40)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\nodepj\eggpj\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 16920
+hostname: shenxi-wkpc
+
+2024-08-20 16:36:39,442 ERROR 26280 [-/127.0.0.1/-/19ms POST /user/create] nodejs.TypeError: Cannot read properties of undefined (reading 'User')
+    at UserController.create (D:\nodepj\eggpj\app\controller\user.js:13:38)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\nodepj\eggpj\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 26280
+hostname: shenxi-wkpc
+
+2024-08-20 16:36:59,101 ERROR 18532 [-/127.0.0.1/-/22ms POST /user/create] nodejs.TypeError: Cannot read properties of undefined (reading 'user')
+    at UserController.create (D:\nodepj\eggpj\app\controller\user.js:13:38)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\nodepj\eggpj\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 18532
+hostname: shenxi-wkpc
+
+2024-08-20 16:39:43,995 ERROR 17700 [-/127.0.0.1/-/22ms POST /user/create] nodejs.TypeError: Cannot read properties of undefined (reading 'user')
+    at UserController.create (D:\nodepj\eggpj\app\controller\user.js:13:38)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\nodepj\eggpj\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 17700
+hostname: shenxi-wkpc
+
+2024-08-20 16:51:52,781 ERROR 11744 [-/127.0.0.1/-/3ms GET /user/create?name=1&idcard=1] nodejs.TypeError: db.insert(...).into is not a function
+    at UserService.create (D:\nodepj\eggpj\app\service\user.js:10:48)
+    at UserController.create (D:\nodepj\eggpj\app\controller\user.js:16:40)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\nodepj\eggpj\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 11744
+hostname: shenxi-wkpc
+
+2024-08-20 16:52:02,069 ERROR 11744 [-/127.0.0.1/-/13ms POST /user/create] nodejs.TypeError: db.insert(...).into is not a function
+    at UserService.create (D:\nodepj\eggpj\app\service\user.js:10:48)
+    at UserController.create (D:\nodepj\eggpj\app\controller\user.js:16:40)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\nodepj\eggpj\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 11744
+hostname: shenxi-wkpc
+
+2024-08-20 16:54:53,956 ERROR 10460 [-/127.0.0.1/-/19ms POST /user/create] nodejs.TypeError: db.insert(...).into is not a function
+    at UserService.create (D:\nodepj\eggpj\app\service\user.js:10:46)
+    at UserController.create (D:\nodepj\eggpj\app\controller\user.js:16:40)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\nodepj\eggpj\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 10460
+hostname: shenxi-wkpc
+
+2024-08-20 16:55:10,454 ERROR 26184 [-/127.0.0.1/-/19ms POST /user/create] nodejs.TypeError: db.insert(...).into is not a function
+    at UserService.create (D:\nodepj\eggpj\app\service\user.js:10:49)
+    at UserController.create (D:\nodepj\eggpj\app\controller\user.js:16:40)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\nodepj\eggpj\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\nodepj\eggpj\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\nodepj\eggpj\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\nodepj\eggpj\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 26184
+hostname: shenxi-wkpc
+
+2024-08-20 17:04:36,478 WARN 22148 [-/127.0.0.1/-/5ms POST /user/create] nodejs.PayloadTooLargeError: request entity too large, check bodyParser config
+    at readStream (D:\nodepj\eggpj\node_modules\raw-body\index.js:163:17)
+    at executor (D:\nodepj\eggpj\node_modules\raw-body\index.js:120:5)
+    at new Promise (<anonymous>)
+    at getRawBody (D:\nodepj\eggpj\node_modules\raw-body\index.js:119:10)
+    at module.exports [as json] (D:\nodepj\eggpj\node_modules\co-body\lib\json.js:41:21)
+    at parseBody (D:\nodepj\eggpj\node_modules\koa-bodyparser\index.js:87:26)
+    at bodyParser (D:\nodepj\eggpj\node_modules\koa-bodyparser\index.js:67:25)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\nodepj\eggpj\node_modules\koa-compose\index.js:42:32)
+    at D:\nodepj\eggpj\node_modules\koa-static-cache\index.js:39:69
+message: "request entity too large, check bodyParser config"
+expected: 41
+length: 41
+limit: 1
+type: "entity.too.large"
+pid: 22148
+hostname: shenxi-wkpc
+

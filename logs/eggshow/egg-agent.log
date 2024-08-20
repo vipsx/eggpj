@@ -1,0 +1,888 @@
+2024-08-20 15:13:57,253 INFO 22864 [egg:logger] init all loggers with options: {"dir":"D:\\nodepj\\eggpj\\logs\\eggshow","encoding":"utf8","env":"unittest","level":"INFO","consoleLevel":"WARN","disableConsoleAfterReady":false,"outputJSON":false,"buffer":false,"appLogName":"eggshow-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-08-20 15:13:57,260 INFO 22864 [egg:core] dump config after load, 4ms
+2024-08-20 15:13:57,304 INFO 22864 [egg-watcher:agent] watcher start success
+2024-08-20 15:13:57,310 INFO 22864 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2284ms] - #0 Process Start
+                                             ▇▇▇▇ [213ms] - #1 Application Start
+                                             ▇ [15ms] - #2 Load Plugin
+                                              ▇ [18ms] - #3 Load Config
+                                              ▇ [0ms] - #4 Require(0) config/config.default.js
+                                              ▇ [1ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                              ▇ [1ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                              ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                              ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                              ▇ [1ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                              ▇ [1ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                              ▇ [1ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                              ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                              ▇ [0ms] - #13 Require(9) node_modules/egg-logrotator/config/config.default.js
+                                              ▇ [0ms] - #14 Require(10) node_modules/egg-static/config/config.default.js
+                                              ▇ [0ms] - #15 Require(11) node_modules/egg-view/config/config.default.js
+                                              ▇ [0ms] - #16 Require(12) node_modules/egg/config/config.default.js
+                                              ▇ [0ms] - #17 Require(13) config/config.default.js
+                                              ▇ [0ms] - #18 Require(14) node_modules/egg-watcher/config/config.unittest.js
+                                              ▇ [1ms] - #19 Require(15) node_modules/egg/config/config.unittest.js
+                                              ▇ [61ms] - #20 Load extend/agent.js
+                                              ▇ [2ms] - #21 Require(16) node_modules/egg-security/app/extend/agent.js
+                                              ▇ [43ms] - #22 Require(17) node_modules/egg-schedule/app/extend/agent.js
+                                               ▇ [7ms] - #23 Require(18) node_modules/egg-logrotator/app/extend/agent.js
+                                               ▇ [2ms] - #24 Require(19) node_modules/egg-mock/app/extend/agent.js
+                                               ▇ [40ms] - #25 Load extend/context.js
+                                               ▇ [10ms] - #26 Require(20) node_modules/egg-security/app/extend/context.js
+                                               ▇ [2ms] - #27 Require(21) node_modules/egg-jsonp/app/extend/context.js
+                                               ▇ [0ms] - #28 Require(22) node_modules/egg-i18n/app/extend/context.js
+                                               ▇ [17ms] - #29 Require(23) node_modules/egg-multipart/app/extend/context.js
+                                                ▇ [1ms] - #30 Require(24) node_modules/egg-view/app/extend/context.js
+                                                ▇ [3ms] - #31 Require(25) node_modules/egg/app/extend/context.js
+                                                ▇ [16ms] - #32 Load agent.js
+                                                ▇ [1ms] - #33 Require(26) node_modules/egg-security/agent.js
+                                                ▇ [1ms] - #34 Require(27) node_modules/egg-onerror/agent.js
+                                                ▇ [10ms] - #35 Require(28) node_modules/egg-watcher/agent.js
+                                                ▇ [2ms] - #36 Require(29) node_modules/egg-schedule/agent.js
+                                                ▇ [1ms] - #37 Require(30) node_modules/egg-logrotator/agent.js
+                                                ▇ [0ms] - #38 Require(31) node_modules/egg/agent.js
+                                                ▇ [49ms] - #39 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                                ▇ [35ms] - #40 Before Start in node_modules/egg-schedule/agent.js:12:9
+2024-08-20 15:13:57,310 INFO 22864 [egg:core] dump config after ready, 3ms
+2024-08-20 15:19:37,674 INFO 28824 [egg:logger] init all loggers with options: {"dir":"D:\\nodepj\\eggpj\\logs\\eggshow","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggshow-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-08-20 15:19:37,681 INFO 28824 [egg:core] dump config after load, 4ms
+2024-08-20 15:19:37,729 INFO 28824 [egg-watcher] Start watching: ["D:\\nodepj\\eggpj\\app","D:\\nodepj\\eggpj\\config","D:\\nodepj\\eggpj\\mocks","D:\\nodepj\\eggpj\\mocks_proxy","D:\\nodepj\\eggpj\\app.js"]
+2024-08-20 15:19:37,730 INFO 28824 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app"
+2024-08-20 15:19:37,730 INFO 28824 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\config"
+2024-08-20 15:19:37,730 INFO 28824 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks"
+2024-08-20 15:19:37,730 INFO 28824 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks_proxy"
+2024-08-20 15:19:37,731 INFO 28824 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app.js"
+2024-08-20 15:19:37,731 INFO 28824 [egg-watcher:agent] watcher start success
+2024-08-20 15:19:37,749 INFO 28824 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [779ms] - #0 Process Start
+                                     ▇▇▇▇▇▇▇▇▇▇▇ [244ms] - #1 Application Start
+                                      ▇ [15ms] - #2 Load Plugin
+                                       ▇ [22ms] - #3 Load Config
+                                       ▇ [0ms] - #4 Require(0) config/config.default.js
+                                       ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                       ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                       ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                       ▇ [1ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                       ▇ [1ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                       ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                       ▇ [1ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                       ▇ [1ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                       ▇ [1ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                       ▇ [1ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                       ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                       ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                       ▇ [0ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                        ▇ [0ms] - #18 Require(14) config/config.default.js
+                                        ▇ [0ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                        ▇ [1ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                        ▇ [1ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                        ▇ [0ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                        ▇▇ [57ms] - #23 Load extend/agent.js
+                                        ▇ [2ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                        ▇▇ [44ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                          ▇ [6ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                           ▇ [39ms] - #27 Load extend/context.js
+                                           ▇ [11ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                           ▇ [2ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                           ▇ [0ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                           ▇ [16ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                            ▇ [1ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                            ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                             ▇ [25ms] - #34 Load agent.js
+                                             ▇ [0ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                             ▇ [0ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                             ▇ [8ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                             ▇ [1ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                             ▇ [10ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                              ▇ [0ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                              ▇ [0ms] - #41 Require(34) node_modules/egg/agent.js
+                                              ▇▇ [55ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                              ▇ [38ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                              ▇▇▇ [66ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-08-20 15:19:37,749 INFO 28824 [egg:core] dump config after ready, 5ms
+2024-08-20 15:23:36,188 WARN 28824 [agent:development] reload worker because D:\nodepj\eggpj\config\config.default.js change
+2024-08-20 15:23:35,972 INFO 28824 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":642,"blocks":1,"atimeMs":1724138615965.1384,"mtimeMs":1724138615965.1384,"ctimeMs":1724138615965.1384,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:23:35.965Z","mtime":"2024-08-20T07:23:35.965Z","ctime":"2024-08-20T07:23:35.965Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:23:35,974 INFO 28824 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":642,"blocks":1,"atimeMs":1724138615965.1384,"mtimeMs":1724138615965.1384,"ctimeMs":1724138615965.1384,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:23:35.965Z","mtime":"2024-08-20T07:23:35.965Z","ctime":"2024-08-20T07:23:35.965Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:23:37,081 WARN 28824 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 15:25:51,025 INFO 22308 [egg:logger] init all loggers with options: {"dir":"D:\\nodepj\\eggpj\\logs\\eggshow","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggshow-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-08-20 15:25:51,033 INFO 22308 [egg:core] dump config after load, 3ms
+2024-08-20 15:25:51,079 INFO 22308 [egg-watcher] Start watching: ["D:\\nodepj\\eggpj\\app","D:\\nodepj\\eggpj\\config","D:\\nodepj\\eggpj\\mocks","D:\\nodepj\\eggpj\\mocks_proxy","D:\\nodepj\\eggpj\\app.js"]
+2024-08-20 15:25:51,079 INFO 22308 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app"
+2024-08-20 15:25:51,079 INFO 22308 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\config"
+2024-08-20 15:25:51,079 INFO 22308 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks"
+2024-08-20 15:25:51,080 INFO 22308 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks_proxy"
+2024-08-20 15:25:51,080 INFO 22308 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app.js"
+2024-08-20 15:25:51,080 INFO 22308 [egg-watcher:agent] watcher start success
+2024-08-20 15:25:51,093 INFO 22308 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [776ms] - #0 Process Start
+                                      ▇▇▇▇▇▇▇▇▇▇▇ [239ms] - #1 Application Start
+                                      ▇ [14ms] - #2 Load Plugin
+                                       ▇ [21ms] - #3 Load Config
+                                       ▇ [0ms] - #4 Require(0) config/config.default.js
+                                       ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                       ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                       ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                       ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                       ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                       ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                       ▇ [1ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                       ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                       ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                        ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                        ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                        ▇ [1ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                        ▇ [1ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                        ▇ [0ms] - #18 Require(14) config/config.default.js
+                                        ▇ [1ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                        ▇ [0ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                        ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                        ▇ [0ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                        ▇▇ [57ms] - #23 Load extend/agent.js
+                                        ▇ [1ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                        ▇▇ [44ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                          ▇ [7ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                           ▇ [40ms] - #27 Load extend/context.js
+                                           ▇ [10ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                           ▇ [3ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                            ▇ [1ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                            ▇ [16ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                            ▇ [1ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                             ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                             ▇ [26ms] - #34 Load agent.js
+                                             ▇ [0ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                             ▇ [0ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                             ▇ [8ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                             ▇ [1ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                             ▇ [10ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                              ▇ [1ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                              ▇ [1ms] - #41 Require(34) node_modules/egg/agent.js
+                                              ▇▇ [52ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                              ▇ [36ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                              ▇▇ [61ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-08-20 15:25:51,093 INFO 22308 [egg:core] dump config after ready, 4ms
+2024-08-20 15:26:24,932 WARN 22308 [agent:development] reload worker because D:\nodepj\eggpj\config\config.default.js change
+2024-08-20 15:26:24,725 INFO 22308 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":645,"blocks":1,"atimeMs":1724138784705.6902,"mtimeMs":1724138784705.6902,"ctimeMs":1724138784705.6902,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:26:24.706Z","mtime":"2024-08-20T07:26:24.706Z","ctime":"2024-08-20T07:26:24.706Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:26:24,728 INFO 22308 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":645,"blocks":1,"atimeMs":1724138784705.6902,"mtimeMs":1724138784705.6902,"ctimeMs":1724138784705.6902,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:26:24.706Z","mtime":"2024-08-20T07:26:24.706Z","ctime":"2024-08-20T07:26:24.706Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:26:25,533 WARN 22308 [agent:development] reload worker because D:\nodepj\eggpj\config\config.default.js change
+2024-08-20 15:26:25,324 INFO 22308 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":0,"blocks":0,"atimeMs":1724138785316.2495,"mtimeMs":1724138785316.2495,"ctimeMs":1724138785316.2495,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:26:25.316Z","mtime":"2024-08-20T07:26:25.316Z","ctime":"2024-08-20T07:26:25.316Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:26:25,331 INFO 22308 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":645,"blocks":1,"atimeMs":1724138785316.2495,"mtimeMs":1724138785316.2495,"ctimeMs":1724138785316.2495,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:26:25.316Z","mtime":"2024-08-20T07:26:25.316Z","ctime":"2024-08-20T07:26:25.316Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:26:25,804 WARN 22308 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 15:39:08,870 INFO 27772 [egg:logger] init all loggers with options: {"dir":"D:\\nodepj\\eggpj\\logs\\eggshow","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggshow-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-08-20 15:39:08,879 INFO 27772 [egg:core] dump config after load, 4ms
+2024-08-20 15:39:08,927 INFO 27772 [egg-watcher] Start watching: ["D:\\nodepj\\eggpj\\app","D:\\nodepj\\eggpj\\config","D:\\nodepj\\eggpj\\mocks","D:\\nodepj\\eggpj\\mocks_proxy","D:\\nodepj\\eggpj\\app.js"]
+2024-08-20 15:39:08,927 INFO 27772 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app"
+2024-08-20 15:39:08,928 INFO 27772 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\config"
+2024-08-20 15:39:08,928 INFO 27772 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks"
+2024-08-20 15:39:08,928 INFO 27772 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks_proxy"
+2024-08-20 15:39:08,928 INFO 27772 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app.js"
+2024-08-20 15:39:08,929 INFO 27772 [egg-watcher:agent] watcher start success
+2024-08-20 15:39:08,942 INFO 27772 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [793ms] - #0 Process Start
+                                     ▇▇▇▇▇▇▇▇▇▇▇▇ [261ms] - #1 Application Start
+                                      ▇ [15ms] - #2 Load Plugin
+                                      ▇ [23ms] - #3 Load Config
+                                      ▇ [0ms] - #4 Require(0) config/config.default.js
+                                      ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                      ▇ [1ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                       ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                       ▇ [1ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                       ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                       ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                       ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                       ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                       ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                       ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                       ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                       ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                       ▇ [0ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                       ▇ [0ms] - #18 Require(14) config/config.default.js
+                                       ▇ [0ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                       ▇ [0ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                       ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                       ▇ [1ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                       ▇▇▇ [66ms] - #23 Load extend/agent.js
+                                        ▇ [1ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                        ▇▇ [51ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                          ▇ [6ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                           ▇▇ [44ms] - #27 Load extend/context.js
+                                           ▇ [12ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                           ▇ [3ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                           ▇ [0ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                           ▇ [18ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                            ▇ [1ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                            ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                             ▇ [28ms] - #34 Load agent.js
+                                             ▇ [1ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                             ▇ [1ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                             ▇ [10ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                             ▇ [2ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                             ▇ [12ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                              ▇ [0ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                              ▇ [1ms] - #41 Require(34) node_modules/egg/agent.js
+                                              ▇▇ [56ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                              ▇ [40ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                              ▇▇ [63ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-08-20 15:39:08,942 INFO 27772 [egg:core] dump config after ready, 5ms
+2024-08-20 15:39:28,855 INFO 27772 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1158,"blocks":8,"atimeMs":1724139568857.2544,"mtimeMs":1724139568857.2544,"ctimeMs":1724139568857.2544,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:39:28.857Z","mtime":"2024-08-20T07:39:28.857Z","ctime":"2024-08-20T07:39:28.857Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:39:28,858 INFO 27772 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1158,"blocks":8,"atimeMs":1724139568857.2544,"mtimeMs":1724139568857.2544,"ctimeMs":1724139568857.2544,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:39:28.857Z","mtime":"2024-08-20T07:39:28.857Z","ctime":"2024-08-20T07:39:28.857Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:39:28,859 INFO 27772 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1158,"blocks":8,"atimeMs":1724139568857.2544,"mtimeMs":1724139568857.2544,"ctimeMs":1724139568857.2544,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:39:28.857Z","mtime":"2024-08-20T07:39:28.857Z","ctime":"2024-08-20T07:39:28.857Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:39:29,064 WARN 27772 [agent:development] reload worker because D:\nodepj\eggpj\config\config.default.js change
+2024-08-20 15:39:29,980 WARN 27772 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 15:40:21,234 INFO 28760 [egg:logger] init all loggers with options: {"dir":"D:\\nodepj\\eggpj\\logs\\eggshow","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggshow-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-08-20 15:40:21,243 INFO 28760 [egg:core] dump config after load, 4ms
+2024-08-20 15:40:21,296 INFO 28760 [egg-watcher] Start watching: ["D:\\nodepj\\eggpj\\app","D:\\nodepj\\eggpj\\config","D:\\nodepj\\eggpj\\mocks","D:\\nodepj\\eggpj\\mocks_proxy","D:\\nodepj\\eggpj\\app.js"]
+2024-08-20 15:40:21,297 INFO 28760 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app"
+2024-08-20 15:40:21,297 INFO 28760 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\config"
+2024-08-20 15:40:21,297 INFO 28760 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks"
+2024-08-20 15:40:21,297 INFO 28760 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks_proxy"
+2024-08-20 15:40:21,298 INFO 28760 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app.js"
+2024-08-20 15:40:21,298 INFO 28760 [egg-watcher:agent] watcher start success
+2024-08-20 15:40:21,314 INFO 28760 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [792ms] - #0 Process Start
+                                    ▇▇▇▇▇▇▇▇▇▇▇▇ [277ms] - #1 Application Start
+                                     ▇ [18ms] - #2 Load Plugin
+                                      ▇ [24ms] - #3 Load Config
+                                      ▇ [1ms] - #4 Require(0) config/config.default.js
+                                      ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                      ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                      ▇ [1ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                      ▇ [1ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                      ▇ [1ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                      ▇ [1ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                      ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                      ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                       ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                       ▇ [1ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                       ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                       ▇ [1ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                       ▇ [1ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                       ▇ [0ms] - #18 Require(14) config/config.default.js
+                                       ▇ [0ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                       ▇ [1ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                       ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                       ▇ [0ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                       ▇▇▇ [67ms] - #23 Load extend/agent.js
+                                       ▇ [1ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                       ▇▇ [51ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                          ▇ [8ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                          ▇▇ [44ms] - #27 Load extend/context.js
+                                          ▇ [12ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                           ▇ [3ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                           ▇ [0ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                           ▇ [18ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                            ▇ [1ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                            ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                            ▇ [28ms] - #34 Load agent.js
+                                            ▇ [0ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                            ▇ [0ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                            ▇ [8ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                             ▇ [2ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                             ▇ [13ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                              ▇ [0ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                              ▇ [0ms] - #41 Require(34) node_modules/egg/agent.js
+                                              ▇▇ [61ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                              ▇ [41ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                              ▇▇▇ [70ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-08-20 15:40:21,314 INFO 28760 [egg:core] dump config after ready, 5ms
+2024-08-20 15:41:55,319 WARN 28760 [agent:development] reload worker because D:\nodepj\eggpj\config\config.default.js change
+2024-08-20 15:41:55,112 INFO 28760 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1131,"blocks":8,"atimeMs":1724139715105.6309,"mtimeMs":1724139715105.6309,"ctimeMs":1724139715105.6309,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:41:55.106Z","mtime":"2024-08-20T07:41:55.106Z","ctime":"2024-08-20T07:41:55.106Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:41:55,114 INFO 28760 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1131,"blocks":8,"atimeMs":1724139715105.6309,"mtimeMs":1724139715105.6309,"ctimeMs":1724139715105.6309,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:41:55.106Z","mtime":"2024-08-20T07:41:55.106Z","ctime":"2024-08-20T07:41:55.106Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:41:55,115 INFO 28760 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1131,"blocks":8,"atimeMs":1724139715105.6309,"mtimeMs":1724139715105.6309,"ctimeMs":1724139715105.6309,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:41:55.106Z","mtime":"2024-08-20T07:41:55.106Z","ctime":"2024-08-20T07:41:55.106Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:41:56,627 WARN 28760 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 15:42:16,535 INFO 10076 [egg:logger] init all loggers with options: {"dir":"D:\\nodepj\\eggpj\\logs\\eggshow","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggshow-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-08-20 15:42:16,543 INFO 10076 [egg:core] dump config after load, 5ms
+2024-08-20 15:42:16,593 INFO 10076 [egg-watcher] Start watching: ["D:\\nodepj\\eggpj\\app","D:\\nodepj\\eggpj\\config","D:\\nodepj\\eggpj\\mocks","D:\\nodepj\\eggpj\\mocks_proxy","D:\\nodepj\\eggpj\\app.js"]
+2024-08-20 15:42:16,593 INFO 10076 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app"
+2024-08-20 15:42:16,594 INFO 10076 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\config"
+2024-08-20 15:42:16,595 INFO 10076 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks"
+2024-08-20 15:42:16,595 INFO 10076 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks_proxy"
+2024-08-20 15:42:16,595 INFO 10076 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app.js"
+2024-08-20 15:42:16,596 INFO 10076 [egg-watcher:agent] watcher start success
+2024-08-20 15:42:16,615 INFO 10076 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [796ms] - #0 Process Start
+                                  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [352ms] - #1 Application Start
+                                   ▇ [23ms] - #2 Load Plugin
+                                    ▇ [37ms] - #3 Load Config
+                                    ▇ [0ms] - #4 Require(0) config/config.default.js
+                                    ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                    ▇ [1ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                     ▇ [1ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                     ▇ [1ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                     ▇ [1ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                     ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                     ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                     ▇ [1ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                     ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                     ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                     ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                     ▇ [1ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                     ▇ [1ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                     ▇ [1ms] - #18 Require(14) config/config.default.js
+                                     ▇ [0ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                      ▇ [1ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                      ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                      ▇ [1ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                      ▇▇▇▇ [108ms] - #23 Load extend/agent.js
+                                      ▇ [2ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                      ▇▇▇ [87ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                          ▇ [9ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                          ▇▇ [48ms] - #27 Load extend/context.js
+                                           ▇ [14ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                           ▇ [3ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                           ▇ [0ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                           ▇ [19ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                            ▇ [2ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                            ▇ [2ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                             ▇ [30ms] - #34 Load agent.js
+                                             ▇ [1ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                             ▇ [0ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                             ▇ [10ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                             ▇ [2ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                             ▇ [11ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                              ▇ [0ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                              ▇ [1ms] - #41 Require(34) node_modules/egg/agent.js
+                                              ▇▇ [59ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                              ▇ [41ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                              ▇▇ [69ms] - #44 Before Start in node_modules/egg-development/agent.js:8:9
+2024-08-20 15:42:16,615 INFO 10076 [egg:core] dump config after ready, 7ms
+2024-08-20 15:42:44,898 INFO 10076 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1130,"blocks":8,"atimeMs":1724139764889.815,"mtimeMs":1724139764889.815,"ctimeMs":1724139764889.815,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:42:44.890Z","mtime":"2024-08-20T07:42:44.890Z","ctime":"2024-08-20T07:42:44.890Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:42:44,901 INFO 10076 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1130,"blocks":8,"atimeMs":1724139764889.815,"mtimeMs":1724139764889.815,"ctimeMs":1724139764889.815,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:42:44.890Z","mtime":"2024-08-20T07:42:44.890Z","ctime":"2024-08-20T07:42:44.890Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:42:44,902 INFO 10076 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1130,"blocks":8,"atimeMs":1724139764889.815,"mtimeMs":1724139764889.815,"ctimeMs":1724139764889.815,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:42:44.890Z","mtime":"2024-08-20T07:42:44.890Z","ctime":"2024-08-20T07:42:44.890Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:42:45,104 WARN 10076 [agent:development] reload worker because D:\nodepj\eggpj\config\config.default.js change
+2024-08-20 15:42:46,337 WARN 10076 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 15:43:07,635 INFO 10076 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"D:\\nodepj\\eggpj\\app\\public\\js","stat":{"dev":1242378810,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977480059,"size":0,"blocks":0,"atimeMs":1724139787631.4226,"mtimeMs":1724139787631.4226,"ctimeMs":1724139787631.4226,"birthtimeMs":1724139787631.4226,"atime":"2024-08-20T07:43:07.631Z","mtime":"2024-08-20T07:43:07.631Z","ctime":"2024-08-20T07:43:07.631Z","birthtime":"2024-08-20T07:43:07.631Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-08-20 15:43:07,636 INFO 10076 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\public","stat":{"dev":1242378810,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977480031,"size":0,"blocks":0,"atimeMs":1724139787631.4226,"mtimeMs":1724139787631.4226,"ctimeMs":1724139787631.4226,"birthtimeMs":1724137088219.734,"atime":"2024-08-20T07:43:07.631Z","mtime":"2024-08-20T07:43:07.631Z","ctime":"2024-08-20T07:43:07.631Z","birthtime":"2024-08-20T06:58:08.220Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-08-20 15:47:16,841 WARN 10076 [agent:development] reload worker because D:\nodepj\eggpj\config\config.default.js change
+2024-08-20 15:47:16,624 INFO 10076 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1130,"blocks":8,"atimeMs":1724140036606.7473,"mtimeMs":1724140036606.7473,"ctimeMs":1724140036606.7473,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:47:16.607Z","mtime":"2024-08-20T07:47:16.607Z","ctime":"2024-08-20T07:47:16.607Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:47:16,624 INFO 10076 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1130,"blocks":8,"atimeMs":1724140036606.7473,"mtimeMs":1724140036606.7473,"ctimeMs":1724140036606.7473,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:47:16.607Z","mtime":"2024-08-20T07:47:16.607Z","ctime":"2024-08-20T07:47:16.607Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:47:16,625 INFO 10076 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1130,"blocks":8,"atimeMs":1724140036606.7473,"mtimeMs":1724140036606.7473,"ctimeMs":1724140036606.7473,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:47:16.607Z","mtime":"2024-08-20T07:47:16.607Z","ctime":"2024-08-20T07:47:16.607Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:47:18,120 WARN 10076 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 15:53:15,043 WARN 10076 [agent:development] reload worker because D:\nodepj\eggpj\config\plugin.js change
+2024-08-20 15:53:14,834 INFO 10076 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\plugin.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454323,"size":167,"blocks":0,"atimeMs":1724140394827.749,"mtimeMs":1724140394827.749,"ctimeMs":1724140394827.749,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:53:14.828Z","mtime":"2024-08-20T07:53:14.828Z","ctime":"2024-08-20T07:53:14.828Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:53:14,836 INFO 10076 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\plugin.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454323,"size":167,"blocks":0,"atimeMs":1724140394827.749,"mtimeMs":1724140394827.749,"ctimeMs":1724140394827.749,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:53:14.828Z","mtime":"2024-08-20T07:53:14.828Z","ctime":"2024-08-20T07:53:14.828Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:53:14,836 INFO 10076 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\plugin.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454323,"size":167,"blocks":0,"atimeMs":1724140394827.749,"mtimeMs":1724140394827.749,"ctimeMs":1724140394827.749,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:53:14.828Z","mtime":"2024-08-20T07:53:14.828Z","ctime":"2024-08-20T07:53:14.828Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:53:15,999 WARN 10076 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 15:55:23,989 INFO 16996 [egg:logger] init all loggers with options: {"dir":"D:\\nodepj\\eggpj\\logs\\eggshow","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggshow-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-08-20 15:55:24,001 INFO 16996 [egg:core] dump config after load, 8ms
+2024-08-20 15:55:24,081 INFO 16996 [egg-watcher] Start watching: ["D:\\nodepj\\eggpj\\app","D:\\nodepj\\eggpj\\config","D:\\nodepj\\eggpj\\mocks","D:\\nodepj\\eggpj\\mocks_proxy","D:\\nodepj\\eggpj\\app.js"]
+2024-08-20 15:55:24,081 INFO 16996 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app"
+2024-08-20 15:55:24,082 INFO 16996 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\config"
+2024-08-20 15:55:24,082 INFO 16996 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks"
+2024-08-20 15:55:24,083 INFO 16996 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks_proxy"
+2024-08-20 15:55:24,083 INFO 16996 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app.js"
+2024-08-20 15:55:24,084 INFO 16996 [egg-watcher:agent] watcher start success
+2024-08-20 15:55:24,102 INFO 16996 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [935ms] - #0 Process Start
+                                   ▇▇▇▇▇▇▇▇▇▇▇▇▇ [363ms] - #1 Application Start
+                                    ▇ [22ms] - #2 Load Plugin
+                                     ▇ [29ms] - #3 Load Config
+                                     ▇ [0ms] - #4 Require(0) config/config.default.js
+                                     ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                     ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                     ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                     ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                     ▇ [1ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                     ▇ [1ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                     ▇ [1ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                     ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                     ▇ [1ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                     ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                     ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                     ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                      ▇ [1ms] - #17 Require(13) node_modules/egg-mysql/config/config.default.js
+                                      ▇ [1ms] - #18 Require(14) node_modules/egg/config/config.default.js
+                                      ▇ [0ms] - #19 Require(15) config/config.default.js
+                                      ▇ [0ms] - #20 Require(16) node_modules/egg-security/config/config.local.js
+                                      ▇ [0ms] - #21 Require(17) node_modules/egg-watcher/config/config.local.js
+                                      ▇ [0ms] - #22 Require(18) node_modules/egg-view/config/config.local.js
+                                      ▇ [0ms] - #23 Require(19) node_modules/egg/config/config.local.js
+                                      ▇▇ [75ms] - #24 Load extend/agent.js
+                                      ▇ [2ms] - #25 Require(20) node_modules/egg-security/app/extend/agent.js
+                                      ▇▇ [56ms] - #26 Require(21) node_modules/egg-schedule/app/extend/agent.js
+                                        ▇ [11ms] - #27 Require(22) node_modules/egg-logrotator/app/extend/agent.js
+                                         ▇▇ [57ms] - #28 Load extend/context.js
+                                         ▇ [13ms] - #29 Require(23) node_modules/egg-security/app/extend/context.js
+                                         ▇ [4ms] - #30 Require(24) node_modules/egg-jsonp/app/extend/context.js
+                                         ▇ [1ms] - #31 Require(25) node_modules/egg-i18n/app/extend/context.js
+                                          ▇ [26ms] - #32 Require(26) node_modules/egg-multipart/app/extend/context.js
+                                           ▇ [2ms] - #33 Require(27) node_modules/egg-view/app/extend/context.js
+                                           ▇ [2ms] - #34 Require(28) node_modules/egg/app/extend/context.js
+                                           ▇▇ [53ms] - #35 Load agent.js
+                                           ▇ [0ms] - #36 Require(29) node_modules/egg-security/agent.js
+                                           ▇ [0ms] - #37 Require(30) node_modules/egg-onerror/agent.js
+                                           ▇ [10ms] - #38 Require(31) node_modules/egg-watcher/agent.js
+                                            ▇ [3ms] - #39 Require(32) node_modules/egg-schedule/agent.js
+                                            ▇ [18ms] - #40 Require(33) node_modules/egg-development/agent.js
+                                            ▇ [0ms] - #41 Require(34) node_modules/egg-logrotator/agent.js
+                                            ▇ [15ms] - #42 Require(35) node_modules/egg-mysql/agent.js
+                                             ▇ [1ms] - #43 Require(36) node_modules/egg/agent.js
+                                             ▇▇▇ [92ms] - #44 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                             ▇▇ [63ms] - #45 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                             ▇▇▇ [102ms] - #46 Before Start in node_modules/egg-development/agent.js:8:9
+2024-08-20 15:55:24,103 INFO 16996 [egg:core] dump config after ready, 6ms
+2024-08-20 15:55:25,807 INFO 16996 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\home.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454325,"size":192,"blocks":0,"atimeMs":1724140525820.1223,"mtimeMs":1724136875709.7231,"ctimeMs":1724136875709.7231,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:55:25.820Z","mtime":"2024-08-20T06:54:35.710Z","ctime":"2024-08-20T06:54:35.710Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:55:25,810 INFO 16996 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\router.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454321,"size":167,"blocks":0,"atimeMs":1724140525822.1294,"mtimeMs":1724136875709.7231,"ctimeMs":1724136875709.7231,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:55:25.822Z","mtime":"2024-08-20T06:54:35.710Z","ctime":"2024-08-20T06:54:35.710Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:55:26,026 WARN 16996 [agent:development] reload worker because D:\nodepj\eggpj\app\router.js change
+2024-08-20 15:55:27,505 WARN 16996 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 15:57:34,493 WARN 16996 [agent:development] reload worker because D:\nodepj\eggpj\app\router.js change
+2024-08-20 15:57:34,281 INFO 16996 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\router.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454321,"size":222,"blocks":0,"atimeMs":1724140654271.1445,"mtimeMs":1724140654271.1445,"ctimeMs":1724140654271.1445,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:57:34.271Z","mtime":"2024-08-20T07:57:34.271Z","ctime":"2024-08-20T07:57:34.271Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:57:34,283 INFO 16996 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\router.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454321,"size":222,"blocks":0,"atimeMs":1724140654271.1445,"mtimeMs":1724140654271.1445,"ctimeMs":1724140654271.1445,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:57:34.271Z","mtime":"2024-08-20T07:57:34.271Z","ctime":"2024-08-20T07:57:34.271Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:57:36,019 WARN 16996 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 15:59:14,577 WARN 16996 [agent:development] reload worker because D:\nodepj\eggpj\app\router.js change
+2024-08-20 15:59:14,362 INFO 16996 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\router.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454321,"size":276,"blocks":0,"atimeMs":1724140754354.418,"mtimeMs":1724140754354.418,"ctimeMs":1724140754354.418,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:59:14.354Z","mtime":"2024-08-20T07:59:14.354Z","ctime":"2024-08-20T07:59:14.354Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:59:14,363 INFO 16996 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\router.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454321,"size":276,"blocks":0,"atimeMs":1724140754354.418,"mtimeMs":1724140754354.418,"ctimeMs":1724140754354.418,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:59:14.354Z","mtime":"2024-08-20T07:59:14.354Z","ctime":"2024-08-20T07:59:14.354Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:59:14,363 INFO 16996 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\router.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454321,"size":276,"blocks":0,"atimeMs":1724140754354.418,"mtimeMs":1724140754354.418,"ctimeMs":1724140754354.418,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T07:59:14.354Z","mtime":"2024-08-20T07:59:14.354Z","ctime":"2024-08-20T07:59:14.354Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 15:59:15,959 WARN 16996 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:05:40,539 INFO 16996 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1438,"blocks":8,"atimeMs":1724141140526.7927,"mtimeMs":1724141140526.7927,"ctimeMs":1724141140526.7927,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T08:05:40.527Z","mtime":"2024-08-20T08:05:40.527Z","ctime":"2024-08-20T08:05:40.527Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:05:40,540 INFO 16996 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1438,"blocks":8,"atimeMs":1724141140526.7927,"mtimeMs":1724141140526.7927,"ctimeMs":1724141140526.7927,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T08:05:40.527Z","mtime":"2024-08-20T08:05:40.527Z","ctime":"2024-08-20T08:05:40.527Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:05:40,541 INFO 16996 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1438,"blocks":8,"atimeMs":1724141140526.7927,"mtimeMs":1724141140526.7927,"ctimeMs":1724141140526.7927,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T08:05:40.527Z","mtime":"2024-08-20T08:05:40.527Z","ctime":"2024-08-20T08:05:40.527Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:05:40,741 WARN 16996 [agent:development] reload worker because D:\nodepj\eggpj\config\config.default.js change
+2024-08-20 16:05:42,196 WARN 16996 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:05:52,716 INFO 16996 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1442,"blocks":8,"atimeMs":1724141152708.5808,"mtimeMs":1724141152708.5808,"ctimeMs":1724141152708.5808,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T08:05:52.709Z","mtime":"2024-08-20T08:05:52.709Z","ctime":"2024-08-20T08:05:52.709Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:05:52,716 INFO 16996 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1442,"blocks":8,"atimeMs":1724141152708.5808,"mtimeMs":1724141152708.5808,"ctimeMs":1724141152708.5808,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T08:05:52.709Z","mtime":"2024-08-20T08:05:52.709Z","ctime":"2024-08-20T08:05:52.709Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:05:52,717 INFO 16996 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1442,"blocks":8,"atimeMs":1724141152708.5808,"mtimeMs":1724141152708.5808,"ctimeMs":1724141152708.5808,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T08:05:52.709Z","mtime":"2024-08-20T08:05:52.709Z","ctime":"2024-08-20T08:05:52.709Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:05:52,932 WARN 16996 [agent:development] reload worker because D:\nodepj\eggpj\config\config.default.js change
+2024-08-20 16:05:54,256 WARN 16996 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:09:03,981 WARN 16996 [agent:development] reload worker because D:\nodepj\eggpj\config\config.default.js change
+2024-08-20 16:09:03,775 INFO 16996 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1444,"blocks":8,"atimeMs":1724141343754.3071,"mtimeMs":1724141343754.3071,"ctimeMs":1724141343754.3071,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T08:09:03.754Z","mtime":"2024-08-20T08:09:03.754Z","ctime":"2024-08-20T08:09:03.754Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:09:03,776 INFO 16996 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1444,"blocks":8,"atimeMs":1724141343754.3071,"mtimeMs":1724141343754.3071,"ctimeMs":1724141343754.3071,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T08:09:03.754Z","mtime":"2024-08-20T08:09:03.754Z","ctime":"2024-08-20T08:09:03.754Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:09:03,777 INFO 16996 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1444,"blocks":8,"atimeMs":1724141343754.3071,"mtimeMs":1724141343754.3071,"ctimeMs":1724141343754.3071,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T08:09:03.754Z","mtime":"2024-08-20T08:09:03.754Z","ctime":"2024-08-20T08:09:03.754Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:09:05,357 WARN 16996 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:09:34,326 INFO 5628 [egg:logger] init all loggers with options: {"dir":"D:\\nodepj\\eggpj\\logs\\eggshow","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggshow-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-08-20 16:09:34,334 INFO 5628 [egg:core] dump config after load, 5ms
+2024-08-20 16:09:34,385 INFO 5628 [egg-watcher] Start watching: ["D:\\nodepj\\eggpj\\app","D:\\nodepj\\eggpj\\config","D:\\nodepj\\eggpj\\mocks","D:\\nodepj\\eggpj\\mocks_proxy","D:\\nodepj\\eggpj\\app.js"]
+2024-08-20 16:09:34,385 INFO 5628 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app"
+2024-08-20 16:09:34,386 INFO 5628 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\config"
+2024-08-20 16:09:34,386 INFO 5628 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks"
+2024-08-20 16:09:34,386 INFO 5628 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks_proxy"
+2024-08-20 16:09:34,386 INFO 5628 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app.js"
+2024-08-20 16:09:34,387 INFO 5628 [egg-watcher:agent] watcher start success
+2024-08-20 16:09:34,405 INFO 5628 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [819ms] - #0 Process Start
+                                     ▇▇▇▇▇▇▇▇▇▇▇▇ [264ms] - #1 Application Start
+                                      ▇ [15ms] - #2 Load Plugin
+                                      ▇ [21ms] - #3 Load Config
+                                      ▇ [1ms] - #4 Require(0) config/config.default.js
+                                       ▇ [1ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                       ▇ [1ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                       ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                       ▇ [1ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                       ▇ [1ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                       ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                       ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                       ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                       ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                       ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                       ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                       ▇ [1ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                       ▇ [1ms] - #17 Require(13) node_modules/egg-mysql/config/config.default.js
+                                       ▇ [1ms] - #18 Require(14) node_modules/egg/config/config.default.js
+                                       ▇ [0ms] - #19 Require(15) config/config.default.js
+                                       ▇ [1ms] - #20 Require(16) node_modules/egg-security/config/config.local.js
+                                       ▇ [0ms] - #21 Require(17) node_modules/egg-watcher/config/config.local.js
+                                       ▇ [1ms] - #22 Require(18) node_modules/egg-view/config/config.local.js
+                                       ▇ [1ms] - #23 Require(19) node_modules/egg/config/config.local.js
+                                        ▇▇ [59ms] - #24 Load extend/agent.js
+                                        ▇ [1ms] - #25 Require(20) node_modules/egg-security/app/extend/agent.js
+                                        ▇▇ [45ms] - #26 Require(21) node_modules/egg-schedule/app/extend/agent.js
+                                          ▇ [7ms] - #27 Require(22) node_modules/egg-logrotator/app/extend/agent.js
+                                          ▇ [40ms] - #28 Load extend/context.js
+                                          ▇ [11ms] - #29 Require(23) node_modules/egg-security/app/extend/context.js
+                                           ▇ [3ms] - #30 Require(24) node_modules/egg-jsonp/app/extend/context.js
+                                           ▇ [1ms] - #31 Require(25) node_modules/egg-i18n/app/extend/context.js
+                                           ▇ [16ms] - #32 Require(26) node_modules/egg-multipart/app/extend/context.js
+                                            ▇ [1ms] - #33 Require(27) node_modules/egg-view/app/extend/context.js
+                                            ▇ [2ms] - #34 Require(28) node_modules/egg/app/extend/context.js
+                                            ▇ [37ms] - #35 Load agent.js
+                                            ▇ [1ms] - #36 Require(29) node_modules/egg-security/agent.js
+                                            ▇ [1ms] - #37 Require(30) node_modules/egg-onerror/agent.js
+                                            ▇ [9ms] - #38 Require(31) node_modules/egg-watcher/agent.js
+                                             ▇ [1ms] - #39 Require(32) node_modules/egg-schedule/agent.js
+                                             ▇ [10ms] - #40 Require(33) node_modules/egg-development/agent.js
+                                             ▇ [1ms] - #41 Require(34) node_modules/egg-logrotator/agent.js
+                                             ▇ [10ms] - #42 Require(35) node_modules/egg-mysql/agent.js
+                                              ▇ [0ms] - #43 Require(36) node_modules/egg/agent.js
+                                              ▇▇ [59ms] - #44 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                              ▇ [40ms] - #45 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                              ▇▇▇ [69ms] - #46 Before Start in node_modules/egg-development/agent.js:8:9
+2024-08-20 16:09:34,405 INFO 5628 [egg:core] dump config after ready, 6ms
+2024-08-20 16:09:59,782 WARN 5628 [agent:development] reload worker because D:\nodepj\eggpj\config\config.default.js change
+2024-08-20 16:09:59,567 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1442,"blocks":8,"atimeMs":1724141399559.2979,"mtimeMs":1724141399559.2979,"ctimeMs":1724141399559.2979,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T08:09:59.559Z","mtime":"2024-08-20T08:09:59.559Z","ctime":"2024-08-20T08:09:59.559Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:09:59,569 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1442,"blocks":8,"atimeMs":1724141399559.2979,"mtimeMs":1724141399559.2979,"ctimeMs":1724141399559.2979,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T08:09:59.559Z","mtime":"2024-08-20T08:09:59.559Z","ctime":"2024-08-20T08:09:59.559Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:09:59,570 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1442,"blocks":8,"atimeMs":1724141399559.2979,"mtimeMs":1724141399559.2979,"ctimeMs":1724141399559.2979,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T08:09:59.559Z","mtime":"2024-08-20T08:09:59.559Z","ctime":"2024-08-20T08:09:59.559Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:10:01,094 WARN 5628 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:14:40,110 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"D:\\nodepj\\eggpj\\app\\service","stat":{"dev":1242378810,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907612026,"size":0,"blocks":0,"atimeMs":1724141680107.11,"mtimeMs":1724141680107.11,"ctimeMs":1724141680107.11,"birthtimeMs":1724141680107.11,"atime":"2024-08-20T08:14:40.107Z","mtime":"2024-08-20T08:14:40.107Z","ctime":"2024-08-20T08:14:40.107Z","birthtime":"2024-08-20T08:14:40.107Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-08-20 16:14:46,802 WARN 5628 [agent:development] reload worker because D:\nodepj\eggpj\app\service\user.js rename
+2024-08-20 16:14:46,597 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":0,"blocks":0,"atimeMs":1724141686589.766,"mtimeMs":1724141686589.766,"ctimeMs":1724141686589.766,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:14:46.590Z","mtime":"2024-08-20T08:14:46.590Z","ctime":"2024-08-20T08:14:46.590Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:14:46,598 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service","stat":{"dev":1242378810,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1125899907612026,"size":0,"blocks":0,"atimeMs":1724141686589.766,"mtimeMs":1724141686589.766,"ctimeMs":1724141686589.766,"birthtimeMs":1724141680107.11,"atime":"2024-08-20T08:14:46.590Z","mtime":"2024-08-20T08:14:46.590Z","ctime":"2024-08-20T08:14:46.590Z","birthtime":"2024-08-20T08:14:40.107Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-08-20 16:14:48,286 WARN 5628 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:17:53,270 WARN 5628 [agent:development] reload worker because D:\nodepj\eggpj\app\service\user.js change
+2024-08-20 16:17:53,057 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":433,"blocks":0,"atimeMs":1724141873038.517,"mtimeMs":1724141873038.517,"ctimeMs":1724141873038.517,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:17:53.039Z","mtime":"2024-08-20T08:17:53.039Z","ctime":"2024-08-20T08:17:53.039Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:17:53,058 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":433,"blocks":0,"atimeMs":1724141873038.517,"mtimeMs":1724141873038.517,"ctimeMs":1724141873038.517,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:17:53.039Z","mtime":"2024-08-20T08:17:53.039Z","ctime":"2024-08-20T08:17:53.039Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:17:54,667 WARN 5628 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:18:52,653 WARN 5628 [agent:development] reload worker because D:\nodepj\eggpj\app\controller\user.js change
+2024-08-20 16:18:52,449 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":697,"blocks":1,"atimeMs":1724141932433.0525,"mtimeMs":1724141932433.0525,"ctimeMs":1724141932433.0525,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:18:52.433Z","mtime":"2024-08-20T08:18:52.433Z","ctime":"2024-08-20T08:18:52.433Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:18:52,450 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":697,"blocks":1,"atimeMs":1724141932433.0525,"mtimeMs":1724141932433.0525,"ctimeMs":1724141932433.0525,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:18:52.433Z","mtime":"2024-08-20T08:18:52.433Z","ctime":"2024-08-20T08:18:52.433Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:18:54,060 WARN 5628 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:19:16,987 WARN 5628 [agent:development] reload worker because D:\nodepj\eggpj\app\controller\user.js change
+2024-08-20 16:19:16,779 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":746,"blocks":8,"atimeMs":1724141956778.3647,"mtimeMs":1724141956778.3647,"ctimeMs":1724141956778.3647,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:19:16.778Z","mtime":"2024-08-20T08:19:16.778Z","ctime":"2024-08-20T08:19:16.778Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:19:16,785 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":746,"blocks":8,"atimeMs":1724141956778.3647,"mtimeMs":1724141956778.3647,"ctimeMs":1724141956778.3647,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:19:16.778Z","mtime":"2024-08-20T08:19:16.778Z","ctime":"2024-08-20T08:19:16.778Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:19:16,785 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":746,"blocks":8,"atimeMs":1724141956778.3647,"mtimeMs":1724141956778.3647,"ctimeMs":1724141956778.3647,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:19:16.778Z","mtime":"2024-08-20T08:19:16.778Z","ctime":"2024-08-20T08:19:16.778Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:19:18,324 WARN 5628 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:19:30,826 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\public\\success.png","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977480057,"size":8058,"blocks":16,"atimeMs":1724141970824.7095,"mtimeMs":1723602912529.648,"ctimeMs":1724034987388.1626,"birthtimeMs":1724138333082.8098,"atime":"2024-08-20T08:19:30.825Z","mtime":"2024-08-14T02:35:12.530Z","ctime":"2024-08-19T02:36:27.388Z","birthtime":"2024-08-20T07:18:53.083Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:30:58,480 WARN 5628 [agent:development] reload worker because D:\nodepj\eggpj\app\service\user.js change
+2024-08-20 16:30:58,273 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":420,"blocks":0,"atimeMs":1724142658265.4917,"mtimeMs":1724142658265.4917,"ctimeMs":1724142658265.4917,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:30:58.265Z","mtime":"2024-08-20T08:30:58.265Z","ctime":"2024-08-20T08:30:58.265Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:30:58,273 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":420,"blocks":0,"atimeMs":1724142658265.4917,"mtimeMs":1724142658265.4917,"ctimeMs":1724142658265.4917,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:30:58.265Z","mtime":"2024-08-20T08:30:58.265Z","ctime":"2024-08-20T08:30:58.265Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:30:59,832 WARN 5628 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:31:06,008 WARN 5628 [agent:development] reload worker because D:\nodepj\eggpj\app\service\user.js change
+2024-08-20 16:31:05,805 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":433,"blocks":0,"atimeMs":1724142665798.0615,"mtimeMs":1724142665798.0615,"ctimeMs":1724142665798.0615,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:31:05.798Z","mtime":"2024-08-20T08:31:05.798Z","ctime":"2024-08-20T08:31:05.798Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:31:05,807 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":433,"blocks":0,"atimeMs":1724142665798.0615,"mtimeMs":1724142665798.0615,"ctimeMs":1724142665798.0615,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:31:05.798Z","mtime":"2024-08-20T08:31:05.798Z","ctime":"2024-08-20T08:31:05.798Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:31:05,807 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":433,"blocks":0,"atimeMs":1724142665798.0615,"mtimeMs":1724142665798.0615,"ctimeMs":1724142665798.0615,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:31:05.798Z","mtime":"2024-08-20T08:31:05.798Z","ctime":"2024-08-20T08:31:05.798Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:31:07,311 WARN 5628 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:32:37,759 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"D:\\nodepj\\eggpj\\app\\model","stat":{"dev":1242378810,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977480240,"size":0,"blocks":0,"atimeMs":1724142757757.2842,"mtimeMs":1724142757757.2842,"ctimeMs":1724142757757.2842,"birthtimeMs":1724142757757.2842,"atime":"2024-08-20T08:32:37.757Z","mtime":"2024-08-20T08:32:37.757Z","ctime":"2024-08-20T08:32:37.757Z","birthtime":"2024-08-20T08:32:37.757Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-08-20 16:32:44,716 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"D:\\nodepj\\eggpj\\app\\model\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977480241,"size":0,"blocks":0,"atimeMs":1724142764714.2493,"mtimeMs":1724142764714.2493,"ctimeMs":1724142764714.2493,"birthtimeMs":1724142764714.2493,"atime":"2024-08-20T08:32:44.714Z","mtime":"2024-08-20T08:32:44.714Z","ctime":"2024-08-20T08:32:44.714Z","birthtime":"2024-08-20T08:32:44.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:32:44,717 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\model","stat":{"dev":1242378810,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977480240,"size":0,"blocks":0,"atimeMs":1724142764716.2769,"mtimeMs":1724142764714.2493,"ctimeMs":1724142764714.2493,"birthtimeMs":1724142757757.2842,"atime":"2024-08-20T08:32:44.716Z","mtime":"2024-08-20T08:32:44.714Z","ctime":"2024-08-20T08:32:44.714Z","birthtime":"2024-08-20T08:32:37.757Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-08-20 16:32:44,916 WARN 5628 [agent:development] reload worker because D:\nodepj\eggpj\app\model\user.js rename
+2024-08-20 16:32:46,287 WARN 5628 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:34:12,214 WARN 5628 [agent:development] reload worker because D:\nodepj\eggpj\app\model\user.js change
+2024-08-20 16:34:12,002 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\model\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977480241,"size":285,"blocks":0,"atimeMs":1724142851995.7693,"mtimeMs":1724142851995.7693,"ctimeMs":1724142851995.7693,"birthtimeMs":1724142764714.2493,"atime":"2024-08-20T08:34:11.996Z","mtime":"2024-08-20T08:34:11.996Z","ctime":"2024-08-20T08:34:11.996Z","birthtime":"2024-08-20T08:32:44.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:34:12,002 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\model\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977480241,"size":285,"blocks":0,"atimeMs":1724142851995.7693,"mtimeMs":1724142851995.7693,"ctimeMs":1724142851995.7693,"birthtimeMs":1724142764714.2493,"atime":"2024-08-20T08:34:11.996Z","mtime":"2024-08-20T08:34:11.996Z","ctime":"2024-08-20T08:34:11.996Z","birthtime":"2024-08-20T08:32:44.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:34:13,472 WARN 5628 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:36:34,636 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":849,"blocks":8,"atimeMs":1724142994629.4734,"mtimeMs":1724142994629.4734,"ctimeMs":1724142994629.4734,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:36:34.629Z","mtime":"2024-08-20T08:36:34.629Z","ctime":"2024-08-20T08:36:34.629Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:36:34,636 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":849,"blocks":8,"atimeMs":1724142994629.4734,"mtimeMs":1724142994629.4734,"ctimeMs":1724142994629.4734,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:36:34.629Z","mtime":"2024-08-20T08:36:34.629Z","ctime":"2024-08-20T08:36:34.629Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:36:34,637 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":849,"blocks":8,"atimeMs":1724142994629.4734,"mtimeMs":1724142994629.4734,"ctimeMs":1724142994629.4734,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:36:34.629Z","mtime":"2024-08-20T08:36:34.629Z","ctime":"2024-08-20T08:36:34.629Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:36:34,841 WARN 5628 [agent:development] reload worker because D:\nodepj\eggpj\app\controller\user.js change
+2024-08-20 16:36:36,137 WARN 5628 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:36:56,733 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":849,"blocks":8,"atimeMs":1724143016726.4243,"mtimeMs":1724143016726.4243,"ctimeMs":1724143016726.4243,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:36:56.726Z","mtime":"2024-08-20T08:36:56.726Z","ctime":"2024-08-20T08:36:56.726Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:36:56,733 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":849,"blocks":8,"atimeMs":1724143016726.4243,"mtimeMs":1724143016726.4243,"ctimeMs":1724143016726.4243,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:36:56.726Z","mtime":"2024-08-20T08:36:56.726Z","ctime":"2024-08-20T08:36:56.726Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:36:56,733 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":849,"blocks":8,"atimeMs":1724143016726.4243,"mtimeMs":1724143016726.4243,"ctimeMs":1724143016726.4243,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:36:56.726Z","mtime":"2024-08-20T08:36:56.726Z","ctime":"2024-08-20T08:36:56.726Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:36:56,937 WARN 5628 [agent:development] reload worker because D:\nodepj\eggpj\app\controller\user.js change
+2024-08-20 16:36:58,255 WARN 5628 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:39:37,148 WARN 5628 [agent:development] reload worker because D:\nodepj\eggpj\app\model\user.js change
+2024-08-20 16:39:36,938 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\model\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977480241,"size":241,"blocks":0,"atimeMs":1724143176931.2336,"mtimeMs":1724143176931.2336,"ctimeMs":1724143176931.2336,"birthtimeMs":1724142764714.2493,"atime":"2024-08-20T08:39:36.931Z","mtime":"2024-08-20T08:39:36.931Z","ctime":"2024-08-20T08:39:36.931Z","birthtime":"2024-08-20T08:32:44.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:39:36,939 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\model\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977480241,"size":241,"blocks":0,"atimeMs":1724143176931.2336,"mtimeMs":1724143176931.2336,"ctimeMs":1724143176931.2336,"birthtimeMs":1724142764714.2493,"atime":"2024-08-20T08:39:36.931Z","mtime":"2024-08-20T08:39:36.931Z","ctime":"2024-08-20T08:39:36.931Z","birthtime":"2024-08-20T08:32:44.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:39:38,408 WARN 5628 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:40:17,470 WARN 5628 [agent:development] reload worker because D:\nodepj\eggpj\app\controller\user.js change
+2024-08-20 16:40:17,268 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":888,"blocks":8,"atimeMs":1724143217261.6338,"mtimeMs":1724143217261.6338,"ctimeMs":1724143217261.6338,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:40:17.262Z","mtime":"2024-08-20T08:40:17.262Z","ctime":"2024-08-20T08:40:17.262Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:40:17,268 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":888,"blocks":8,"atimeMs":1724143217261.6338,"mtimeMs":1724143217261.6338,"ctimeMs":1724143217261.6338,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:40:17.262Z","mtime":"2024-08-20T08:40:17.262Z","ctime":"2024-08-20T08:40:17.262Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:40:17,269 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":888,"blocks":8,"atimeMs":1724143217261.6338,"mtimeMs":1724143217261.6338,"ctimeMs":1724143217261.6338,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:40:17.262Z","mtime":"2024-08-20T08:40:17.262Z","ctime":"2024-08-20T08:40:17.262Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:40:18,780 WARN 5628 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:41:29,119 WARN 5628 [agent:development] reload worker because D:\nodepj\eggpj\app\model\user.js change
+2024-08-20 16:41:28,911 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\model\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977480241,"size":555,"blocks":1,"atimeMs":1724143288904.141,"mtimeMs":1724143288904.141,"ctimeMs":1724143288904.141,"birthtimeMs":1724142764714.2493,"atime":"2024-08-20T08:41:28.904Z","mtime":"2024-08-20T08:41:28.904Z","ctime":"2024-08-20T08:41:28.904Z","birthtime":"2024-08-20T08:32:44.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:41:28,912 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\model\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977480241,"size":555,"blocks":1,"atimeMs":1724143288904.141,"mtimeMs":1724143288904.141,"ctimeMs":1724143288904.141,"birthtimeMs":1724142764714.2493,"atime":"2024-08-20T08:41:28.904Z","mtime":"2024-08-20T08:41:28.904Z","ctime":"2024-08-20T08:41:28.904Z","birthtime":"2024-08-20T08:32:44.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:42:10,458 WARN 5628 [agent:development] reload worker because D:\nodepj\eggpj\app\controller\user.js change
+2024-08-20 16:42:10,243 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":892,"blocks":8,"atimeMs":1724143330237.5579,"mtimeMs":1724143330237.5579,"ctimeMs":1724143330237.5579,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:42:10.238Z","mtime":"2024-08-20T08:42:10.238Z","ctime":"2024-08-20T08:42:10.238Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:42:10,244 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":892,"blocks":8,"atimeMs":1724143330237.5579,"mtimeMs":1724143330237.5579,"ctimeMs":1724143330237.5579,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:42:10.238Z","mtime":"2024-08-20T08:42:10.238Z","ctime":"2024-08-20T08:42:10.238Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:42:10,244 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":892,"blocks":8,"atimeMs":1724143330237.5579,"mtimeMs":1724143330237.5579,"ctimeMs":1724143330237.5579,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:42:10.238Z","mtime":"2024-08-20T08:42:10.238Z","ctime":"2024-08-20T08:42:10.238Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:42:55,104 WARN 5628 [agent:development] reload worker because D:\nodepj\eggpj\app\controller\user.js change
+2024-08-20 16:42:54,901 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":952,"blocks":8,"atimeMs":1724143374894.9336,"mtimeMs":1724143374894.9336,"ctimeMs":1724143374894.9336,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:42:54.895Z","mtime":"2024-08-20T08:42:54.895Z","ctime":"2024-08-20T08:42:54.895Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:42:54,901 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":952,"blocks":8,"atimeMs":1724143374894.9336,"mtimeMs":1724143374894.9336,"ctimeMs":1724143374894.9336,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:42:54.895Z","mtime":"2024-08-20T08:42:54.895Z","ctime":"2024-08-20T08:42:54.895Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:42:54,902 INFO 5628 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":952,"blocks":8,"atimeMs":1724143374894.9336,"mtimeMs":1724143374894.9336,"ctimeMs":1724143374894.9336,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T08:42:54.895Z","mtime":"2024-08-20T08:42:54.895Z","ctime":"2024-08-20T08:42:54.895Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:43:11,064 INFO 13252 [egg:logger] init all loggers with options: {"dir":"D:\\nodepj\\eggpj\\logs\\eggshow","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggshow-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-08-20 16:43:11,072 INFO 13252 [egg:core] dump config after load, 4ms
+2024-08-20 16:43:11,121 INFO 13252 [egg-watcher] Start watching: ["D:\\nodepj\\eggpj\\app","D:\\nodepj\\eggpj\\config","D:\\nodepj\\eggpj\\mocks","D:\\nodepj\\eggpj\\mocks_proxy","D:\\nodepj\\eggpj\\app.js"]
+2024-08-20 16:43:11,121 INFO 13252 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app"
+2024-08-20 16:43:11,122 INFO 13252 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\config"
+2024-08-20 16:43:11,122 INFO 13252 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks"
+2024-08-20 16:43:11,122 INFO 13252 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks_proxy"
+2024-08-20 16:43:11,122 INFO 13252 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app.js"
+2024-08-20 16:43:11,122 INFO 13252 [egg-watcher:agent] watcher start success
+2024-08-20 16:43:11,145 INFO 13252 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [818ms] - #0 Process Start
+                                     ▇▇▇▇▇▇▇▇▇▇▇▇ [266ms] - #1 Application Start
+                                      ▇ [16ms] - #2 Load Plugin
+                                      ▇ [22ms] - #3 Load Config
+                                      ▇ [1ms] - #4 Require(0) config/config.default.js
+                                       ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                       ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                       ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                       ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                       ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                       ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                       ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                       ▇ [1ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                       ▇ [1ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                       ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                       ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                       ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                       ▇ [1ms] - #17 Require(13) node_modules/egg-mysql/config/config.default.js
+                                       ▇ [1ms] - #18 Require(14) node_modules/egg/config/config.default.js
+                                       ▇ [0ms] - #19 Require(15) config/config.default.js
+                                       ▇ [0ms] - #20 Require(16) node_modules/egg-security/config/config.local.js
+                                       ▇ [1ms] - #21 Require(17) node_modules/egg-watcher/config/config.local.js
+                                       ▇ [0ms] - #22 Require(18) node_modules/egg-view/config/config.local.js
+                                       ▇ [0ms] - #23 Require(19) node_modules/egg/config/config.local.js
+                                       ▇▇ [61ms] - #24 Load extend/agent.js
+                                        ▇ [1ms] - #25 Require(20) node_modules/egg-security/app/extend/agent.js
+                                        ▇▇ [45ms] - #26 Require(21) node_modules/egg-schedule/app/extend/agent.js
+                                          ▇ [7ms] - #27 Require(22) node_modules/egg-logrotator/app/extend/agent.js
+                                          ▇ [39ms] - #28 Load extend/context.js
+                                          ▇ [10ms] - #29 Require(23) node_modules/egg-security/app/extend/context.js
+                                           ▇ [3ms] - #30 Require(24) node_modules/egg-jsonp/app/extend/context.js
+                                           ▇ [1ms] - #31 Require(25) node_modules/egg-i18n/app/extend/context.js
+                                           ▇ [17ms] - #32 Require(26) node_modules/egg-multipart/app/extend/context.js
+                                            ▇ [1ms] - #33 Require(27) node_modules/egg-view/app/extend/context.js
+                                            ▇ [2ms] - #34 Require(28) node_modules/egg/app/extend/context.js
+                                            ▇ [35ms] - #35 Load agent.js
+                                            ▇ [1ms] - #36 Require(29) node_modules/egg-security/agent.js
+                                            ▇ [0ms] - #37 Require(30) node_modules/egg-onerror/agent.js
+                                            ▇ [9ms] - #38 Require(31) node_modules/egg-watcher/agent.js
+                                             ▇ [1ms] - #39 Require(32) node_modules/egg-schedule/agent.js
+                                             ▇ [10ms] - #40 Require(33) node_modules/egg-development/agent.js
+                                             ▇ [1ms] - #41 Require(34) node_modules/egg-logrotator/agent.js
+                                             ▇ [10ms] - #42 Require(35) node_modules/egg-mysql/agent.js
+                                              ▇ [0ms] - #43 Require(36) node_modules/egg/agent.js
+                                              ▇▇ [55ms] - #44 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                              ▇ [37ms] - #45 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                              ▇▇▇ [72ms] - #46 Before Start in node_modules/egg-development/agent.js:8:9
+2024-08-20 16:43:11,145 INFO 13252 [egg:core] dump config after ready, 4ms
+2024-08-20 16:44:05,922 INFO 11548 [egg:logger] init all loggers with options: {"dir":"D:\\nodepj\\eggpj\\logs\\eggshow","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggshow-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-08-20 16:44:05,936 INFO 11548 [egg:core] dump config after load, 8ms
+2024-08-20 16:44:05,986 INFO 11548 [egg-watcher] Start watching: ["D:\\nodepj\\eggpj\\app","D:\\nodepj\\eggpj\\config","D:\\nodepj\\eggpj\\mocks","D:\\nodepj\\eggpj\\mocks_proxy","D:\\nodepj\\eggpj\\app.js"]
+2024-08-20 16:44:05,986 INFO 11548 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app"
+2024-08-20 16:44:05,987 INFO 11548 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\config"
+2024-08-20 16:44:05,987 INFO 11548 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks"
+2024-08-20 16:44:05,987 INFO 11548 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks_proxy"
+2024-08-20 16:44:05,987 INFO 11548 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app.js"
+2024-08-20 16:44:05,988 INFO 11548 [egg-watcher:agent] watcher start success
+2024-08-20 16:44:05,997 INFO 11548 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [812ms] - #0 Process Start
+                                     ▇▇▇▇▇▇▇▇▇▇▇▇ [266ms] - #1 Application Start
+                                      ▇ [15ms] - #2 Load Plugin
+                                      ▇ [20ms] - #3 Load Config
+                                      ▇ [1ms] - #4 Require(0) config/config.default.js
+                                      ▇ [1ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                      ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                       ▇ [1ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                       ▇ [1ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                       ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                       ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                       ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                       ▇ [1ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                       ▇ [1ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                       ▇ [1ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                       ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                       ▇ [0ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                       ▇ [0ms] - #17 Require(13) node_modules/egg-mysql/config/config.default.js
+                                       ▇ [0ms] - #18 Require(14) node_modules/egg/config/config.default.js
+                                       ▇ [0ms] - #19 Require(15) config/config.default.js
+                                       ▇ [0ms] - #20 Require(16) node_modules/egg-security/config/config.local.js
+                                       ▇ [0ms] - #21 Require(17) node_modules/egg-watcher/config/config.local.js
+                                       ▇ [0ms] - #22 Require(18) node_modules/egg-view/config/config.local.js
+                                       ▇ [1ms] - #23 Require(19) node_modules/egg/config/config.local.js
+                                       ▇▇ [56ms] - #24 Load extend/agent.js
+                                       ▇ [1ms] - #25 Require(20) node_modules/egg-security/app/extend/agent.js
+                                       ▇ [42ms] - #26 Require(21) node_modules/egg-schedule/app/extend/agent.js
+                                         ▇ [6ms] - #27 Require(22) node_modules/egg-logrotator/app/extend/agent.js
+                                          ▇▇ [47ms] - #28 Load extend/context.js
+                                          ▇ [10ms] - #29 Require(23) node_modules/egg-security/app/extend/context.js
+                                          ▇ [2ms] - #30 Require(24) node_modules/egg-jsonp/app/extend/context.js
+                                           ▇ [0ms] - #31 Require(25) node_modules/egg-i18n/app/extend/context.js
+                                           ▇ [21ms] - #32 Require(26) node_modules/egg-multipart/app/extend/context.js
+                                            ▇ [2ms] - #33 Require(27) node_modules/egg-view/app/extend/context.js
+                                            ▇ [2ms] - #34 Require(28) node_modules/egg/app/extend/context.js
+                                            ▇ [39ms] - #35 Load agent.js
+                                            ▇ [0ms] - #36 Require(29) node_modules/egg-security/agent.js
+                                            ▇ [0ms] - #37 Require(30) node_modules/egg-onerror/agent.js
+                                            ▇ [9ms] - #38 Require(31) node_modules/egg-watcher/agent.js
+                                             ▇ [2ms] - #39 Require(32) node_modules/egg-schedule/agent.js
+                                             ▇ [11ms] - #40 Require(33) node_modules/egg-development/agent.js
+                                             ▇ [1ms] - #41 Require(34) node_modules/egg-logrotator/agent.js
+                                             ▇ [11ms] - #42 Require(35) node_modules/egg-mysql/agent.js
+                                              ▇ [0ms] - #43 Require(36) node_modules/egg/agent.js
+                                              ▇▇ [64ms] - #44 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                              ▇▇ [46ms] - #45 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                              ▇▇▇ [66ms] - #46 Before Start in node_modules/egg-development/agent.js:8:9
+2024-08-20 16:44:05,998 INFO 11548 [egg:core] dump config after ready, 5ms
+2024-08-20 16:51:47,232 INFO 16152 [egg:logger] init all loggers with options: {"dir":"D:\\nodepj\\eggpj\\logs\\eggshow","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggshow-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-08-20 16:51:47,239 INFO 16152 [egg:core] dump config after load, 4ms
+2024-08-20 16:51:47,286 INFO 16152 [egg-watcher] Start watching: ["D:\\nodepj\\eggpj\\app","D:\\nodepj\\eggpj\\config","D:\\nodepj\\eggpj\\mocks","D:\\nodepj\\eggpj\\mocks_proxy","D:\\nodepj\\eggpj\\app.js"]
+2024-08-20 16:51:47,287 INFO 16152 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app"
+2024-08-20 16:51:47,287 INFO 16152 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\config"
+2024-08-20 16:51:47,287 INFO 16152 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks"
+2024-08-20 16:51:47,287 INFO 16152 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks_proxy"
+2024-08-20 16:51:47,288 INFO 16152 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app.js"
+2024-08-20 16:51:47,288 INFO 16152 [egg-watcher:agent] watcher start success
+2024-08-20 16:51:47,298 INFO 16152 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [771ms] - #0 Process Start
+                                     ▇▇▇▇▇▇▇▇▇▇▇▇ [249ms] - #1 Application Start
+                                      ▇ [15ms] - #2 Load Plugin
+                                       ▇ [21ms] - #3 Load Config
+                                       ▇ [0ms] - #4 Require(0) config/config.default.js
+                                       ▇ [1ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                       ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                       ▇ [1ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                       ▇ [1ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                       ▇ [1ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                       ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                       ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                       ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                       ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                       ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                       ▇ [1ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                       ▇ [1ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                       ▇ [1ms] - #17 Require(13) node_modules/egg-mysql/config/config.default.js
+                                       ▇ [0ms] - #18 Require(14) node_modules/egg/config/config.default.js
+                                       ▇ [0ms] - #19 Require(15) config/config.default.js
+                                       ▇ [0ms] - #20 Require(16) node_modules/egg-security/config/config.local.js
+                                       ▇ [0ms] - #21 Require(17) node_modules/egg-watcher/config/config.local.js
+                                       ▇ [0ms] - #22 Require(18) node_modules/egg-view/config/config.local.js
+                                        ▇ [0ms] - #23 Require(19) node_modules/egg/config/config.local.js
+                                        ▇▇ [59ms] - #24 Load extend/agent.js
+                                        ▇ [2ms] - #25 Require(20) node_modules/egg-security/app/extend/agent.js
+                                        ▇▇ [45ms] - #26 Require(21) node_modules/egg-schedule/app/extend/agent.js
+                                          ▇ [7ms] - #27 Require(22) node_modules/egg-logrotator/app/extend/agent.js
+                                          ▇ [38ms] - #28 Load extend/context.js
+                                          ▇ [11ms] - #29 Require(23) node_modules/egg-security/app/extend/context.js
+                                           ▇ [3ms] - #30 Require(24) node_modules/egg-jsonp/app/extend/context.js
+                                           ▇ [1ms] - #31 Require(25) node_modules/egg-i18n/app/extend/context.js
+                                           ▇ [16ms] - #32 Require(26) node_modules/egg-multipart/app/extend/context.js
+                                            ▇ [1ms] - #33 Require(27) node_modules/egg-view/app/extend/context.js
+                                            ▇ [1ms] - #34 Require(28) node_modules/egg/app/extend/context.js
+                                            ▇ [35ms] - #35 Load agent.js
+                                            ▇ [1ms] - #36 Require(29) node_modules/egg-security/agent.js
+                                            ▇ [1ms] - #37 Require(30) node_modules/egg-onerror/agent.js
+                                            ▇ [8ms] - #38 Require(31) node_modules/egg-watcher/agent.js
+                                             ▇ [1ms] - #39 Require(32) node_modules/egg-schedule/agent.js
+                                             ▇ [10ms] - #40 Require(33) node_modules/egg-development/agent.js
+                                              ▇ [0ms] - #41 Require(34) node_modules/egg-logrotator/agent.js
+                                              ▇ [10ms] - #42 Require(35) node_modules/egg-mysql/agent.js
+                                              ▇ [0ms] - #43 Require(36) node_modules/egg/agent.js
+                                              ▇▇ [54ms] - #44 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                              ▇ [37ms] - #45 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                              ▇▇ [57ms] - #46 Before Start in node_modules/egg-development/agent.js:8:9
+2024-08-20 16:51:47,298 INFO 16152 [egg:core] dump config after ready, 5ms
+2024-08-20 16:53:15,428 WARN 16152 [agent:development] reload worker because D:\nodepj\eggpj\app\service\user.js change
+2024-08-20 16:53:15,211 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":490,"blocks":0,"atimeMs":1724143995202.729,"mtimeMs":1724143995202.729,"ctimeMs":1724143995202.729,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:53:15.203Z","mtime":"2024-08-20T08:53:15.203Z","ctime":"2024-08-20T08:53:15.203Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:53:15,214 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":490,"blocks":0,"atimeMs":1724143995202.729,"mtimeMs":1724143995202.729,"ctimeMs":1724143995202.729,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:53:15.203Z","mtime":"2024-08-20T08:53:15.203Z","ctime":"2024-08-20T08:53:15.203Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:53:16,448 WARN 16152 [agent:development] reload worker because D:\nodepj\eggpj\config\plugin.js change
+2024-08-20 16:53:16,247 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\plugin.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454323,"size":167,"blocks":0,"atimeMs":1724143996246.7495,"mtimeMs":1724140394827.749,"ctimeMs":1724140394827.749,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T08:53:16.247Z","mtime":"2024-08-20T07:53:14.828Z","ctime":"2024-08-20T07:53:14.828Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:53:16,723 WARN 16152 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:53:16,727 WARN 16152 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:53:45,520 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller","stat":{"dev":1242378810,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454320,"size":0,"blocks":0,"atimeMs":1724144025518.6504,"mtimeMs":1724140424590.111,"ctimeMs":1724140424590.111,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T08:53:45.519Z","mtime":"2024-08-20T07:53:44.590Z","ctime":"2024-08-20T07:53:44.590Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-08-20 16:53:52,981 WARN 16152 [agent:development] reload worker because D:\nodepj\eggpj\app\service\user.js change
+2024-08-20 16:53:52,776 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":492,"blocks":0,"atimeMs":1724144032768.8813,"mtimeMs":1724144032768.8813,"ctimeMs":1724144032768.8813,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:53:52.769Z","mtime":"2024-08-20T08:53:52.769Z","ctime":"2024-08-20T08:53:52.769Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:53:52,777 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":492,"blocks":0,"atimeMs":1724144032768.8813,"mtimeMs":1724144032768.8813,"ctimeMs":1724144032768.8813,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:53:52.769Z","mtime":"2024-08-20T08:53:52.769Z","ctime":"2024-08-20T08:53:52.769Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:53:54,279 WARN 16152 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:54:05,386 WARN 16152 [agent:development] reload worker because D:\nodepj\eggpj\app\service\user.js change
+2024-08-20 16:54:05,184 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":490,"blocks":0,"atimeMs":1724144045176.465,"mtimeMs":1724144045176.465,"ctimeMs":1724144045176.465,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:54:05.176Z","mtime":"2024-08-20T08:54:05.176Z","ctime":"2024-08-20T08:54:05.176Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:54:05,184 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":490,"blocks":0,"atimeMs":1724144045176.465,"mtimeMs":1724144045176.465,"ctimeMs":1724144045176.465,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:54:05.176Z","mtime":"2024-08-20T08:54:05.176Z","ctime":"2024-08-20T08:54:05.176Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:54:06,741 WARN 16152 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:54:52,331 WARN 16152 [agent:development] reload worker because D:\nodepj\eggpj\app\service\user.js change
+2024-08-20 16:54:52,118 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":486,"blocks":0,"atimeMs":1724144092111.173,"mtimeMs":1724144092111.173,"ctimeMs":1724144092111.173,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:54:52.111Z","mtime":"2024-08-20T08:54:52.111Z","ctime":"2024-08-20T08:54:52.111Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:54:52,119 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":486,"blocks":0,"atimeMs":1724144092111.173,"mtimeMs":1724144092111.173,"ctimeMs":1724144092111.173,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:54:52.111Z","mtime":"2024-08-20T08:54:52.111Z","ctime":"2024-08-20T08:54:52.111Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:54:52,120 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":486,"blocks":0,"atimeMs":1724144092111.173,"mtimeMs":1724144092111.173,"ctimeMs":1724144092111.173,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:54:52.111Z","mtime":"2024-08-20T08:54:52.111Z","ctime":"2024-08-20T08:54:52.111Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:54:53,641 WARN 16152 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:55:07,810 WARN 16152 [agent:development] reload worker because D:\nodepj\eggpj\app\service\user.js change
+2024-08-20 16:55:07,601 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":489,"blocks":0,"atimeMs":1724144107593.7405,"mtimeMs":1724144107593.7405,"ctimeMs":1724144107593.7405,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:55:07.594Z","mtime":"2024-08-20T08:55:07.594Z","ctime":"2024-08-20T08:55:07.594Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:55:07,602 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":489,"blocks":0,"atimeMs":1724144107593.7405,"mtimeMs":1724144107593.7405,"ctimeMs":1724144107593.7405,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:55:07.594Z","mtime":"2024-08-20T08:55:07.594Z","ctime":"2024-08-20T08:55:07.594Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:55:07,602 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":489,"blocks":0,"atimeMs":1724144107593.7405,"mtimeMs":1724144107593.7405,"ctimeMs":1724144107593.7405,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:55:07.594Z","mtime":"2024-08-20T08:55:07.594Z","ctime":"2024-08-20T08:55:07.594Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:55:09,133 WARN 16152 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:55:44,739 WARN 16152 [agent:development] reload worker because D:\nodepj\eggpj\app\service\user.js change
+2024-08-20 16:55:44,538 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":465,"blocks":0,"atimeMs":1724144144531.1646,"mtimeMs":1724144144531.1646,"ctimeMs":1724144144531.1646,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:55:44.531Z","mtime":"2024-08-20T08:55:44.531Z","ctime":"2024-08-20T08:55:44.531Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:55:44,539 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\service\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190889,"size":465,"blocks":0,"atimeMs":1724144144531.1646,"mtimeMs":1724144144531.1646,"ctimeMs":1724144144531.1646,"birthtimeMs":1724141686589.766,"atime":"2024-08-20T08:55:44.531Z","mtime":"2024-08-20T08:55:44.531Z","ctime":"2024-08-20T08:55:44.531Z","birthtime":"2024-08-20T08:14:46.590Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:55:46,217 WARN 16152 [agent:development] reload worker because D:\nodepj\eggpj\app\controller\home.js change
+2024-08-20 16:55:46,011 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\home.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454325,"size":192,"blocks":0,"atimeMs":1724144146009.5164,"mtimeMs":1724136875709.7231,"ctimeMs":1724136875709.7231,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T08:55:46.010Z","mtime":"2024-08-20T06:54:35.710Z","ctime":"2024-08-20T06:54:35.710Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 16:55:46,075 WARN 16152 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 16:55:47,547 WARN 16152 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 17:00:17,272 WARN 16152 [agent:development] reload worker because D:\nodepj\eggpj\config\config.default.js change
+2024-08-20 17:00:17,067 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1441,"blocks":8,"atimeMs":1724144417060.6794,"mtimeMs":1724144417060.6794,"ctimeMs":1724144417060.6794,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:00:17.061Z","mtime":"2024-08-20T09:00:17.061Z","ctime":"2024-08-20T09:00:17.061Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:00:17,068 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1441,"blocks":8,"atimeMs":1724144417060.6794,"mtimeMs":1724144417060.6794,"ctimeMs":1724144417060.6794,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:00:17.061Z","mtime":"2024-08-20T09:00:17.061Z","ctime":"2024-08-20T09:00:17.061Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:00:17,068 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1441,"blocks":8,"atimeMs":1724144417060.6794,"mtimeMs":1724144417060.6794,"ctimeMs":1724144417060.6794,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:00:17.061Z","mtime":"2024-08-20T09:00:17.061Z","ctime":"2024-08-20T09:00:17.061Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:00:18,769 WARN 16152 [agent:development] reload worker because D:\nodepj\eggpj\app\router.js change
+2024-08-20 17:00:18,566 INFO 16152 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\router.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454321,"size":276,"blocks":0,"atimeMs":1724144418557.4653,"mtimeMs":1724140754354.418,"ctimeMs":1724140754354.418,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:00:18.557Z","mtime":"2024-08-20T07:59:14.354Z","ctime":"2024-08-20T07:59:14.354Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:00:18,651 WARN 16152 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 17:00:20,114 WARN 16152 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 17:00:43,466 INFO 8652 [egg:logger] init all loggers with options: {"dir":"D:\\nodepj\\eggpj\\logs\\eggshow","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggshow-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-08-20 17:00:43,474 INFO 8652 [egg:core] dump config after load, 4ms
+2024-08-20 17:00:43,521 INFO 8652 [egg-watcher] Start watching: ["D:\\nodepj\\eggpj\\app","D:\\nodepj\\eggpj\\config","D:\\nodepj\\eggpj\\mocks","D:\\nodepj\\eggpj\\mocks_proxy","D:\\nodepj\\eggpj\\app.js"]
+2024-08-20 17:00:43,521 INFO 8652 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app"
+2024-08-20 17:00:43,521 INFO 8652 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\config"
+2024-08-20 17:00:43,522 INFO 8652 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks"
+2024-08-20 17:00:43,522 INFO 8652 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\mocks_proxy"
+2024-08-20 17:00:43,522 INFO 8652 [egg-watcher] Start watching: "D:\\nodepj\\eggpj\\app.js"
+2024-08-20 17:00:43,522 INFO 8652 [egg-watcher:agent] watcher start success
+2024-08-20 17:00:43,541 INFO 8652 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [763ms] - #0 Process Start
+                                     ▇▇▇▇▇▇▇▇▇▇▇▇ [250ms] - #1 Application Start
+                                      ▇ [14ms] - #2 Load Plugin
+                                      ▇ [20ms] - #3 Load Config
+                                      ▇ [0ms] - #4 Require(0) config/config.default.js
+                                      ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                      ▇ [1ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                       ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                       ▇ [1ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                       ▇ [1ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                       ▇ [1ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                       ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                       ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                       ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                       ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                       ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                       ▇ [1ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                       ▇ [1ms] - #17 Require(13) node_modules/egg-mysql/config/config.default.js
+                                       ▇ [0ms] - #18 Require(14) node_modules/egg/config/config.default.js
+                                       ▇ [0ms] - #19 Require(15) config/config.default.js
+                                       ▇ [0ms] - #20 Require(16) node_modules/egg-security/config/config.local.js
+                                       ▇ [1ms] - #21 Require(17) node_modules/egg-watcher/config/config.local.js
+                                       ▇ [0ms] - #22 Require(18) node_modules/egg-view/config/config.local.js
+                                       ▇ [0ms] - #23 Require(19) node_modules/egg/config/config.local.js
+                                       ▇▇ [57ms] - #24 Load extend/agent.js
+                                       ▇ [1ms] - #25 Require(20) node_modules/egg-security/app/extend/agent.js
+                                        ▇▇ [43ms] - #26 Require(21) node_modules/egg-schedule/app/extend/agent.js
+                                          ▇ [6ms] - #27 Require(22) node_modules/egg-logrotator/app/extend/agent.js
+                                          ▇ [37ms] - #28 Load extend/context.js
+                                          ▇ [10ms] - #29 Require(23) node_modules/egg-security/app/extend/context.js
+                                           ▇ [2ms] - #30 Require(24) node_modules/egg-jsonp/app/extend/context.js
+                                           ▇ [0ms] - #31 Require(25) node_modules/egg-i18n/app/extend/context.js
+                                           ▇ [15ms] - #32 Require(26) node_modules/egg-multipart/app/extend/context.js
+                                            ▇ [1ms] - #33 Require(27) node_modules/egg-view/app/extend/context.js
+                                            ▇ [1ms] - #34 Require(28) node_modules/egg/app/extend/context.js
+                                            ▇ [34ms] - #35 Load agent.js
+                                            ▇ [0ms] - #36 Require(29) node_modules/egg-security/agent.js
+                                            ▇ [0ms] - #37 Require(30) node_modules/egg-onerror/agent.js
+                                            ▇ [7ms] - #38 Require(31) node_modules/egg-watcher/agent.js
+                                             ▇ [1ms] - #39 Require(32) node_modules/egg-schedule/agent.js
+                                             ▇ [9ms] - #40 Require(33) node_modules/egg-development/agent.js
+                                             ▇ [0ms] - #41 Require(34) node_modules/egg-logrotator/agent.js
+                                             ▇ [9ms] - #42 Require(35) node_modules/egg-mysql/agent.js
+                                              ▇ [0ms] - #43 Require(36) node_modules/egg/agent.js
+                                              ▇▇ [53ms] - #44 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                              ▇ [36ms] - #45 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                              ▇▇▇ [68ms] - #46 Before Start in node_modules/egg-development/agent.js:8:9
+2024-08-20 17:00:43,542 INFO 8652 [egg:core] dump config after ready, 4ms
+2024-08-20 17:01:36,614 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":760,"blocks":8,"atimeMs":1724144496607.033,"mtimeMs":1724144496607.033,"ctimeMs":1724144496607.033,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T09:01:36.607Z","mtime":"2024-08-20T09:01:36.607Z","ctime":"2024-08-20T09:01:36.607Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:01:36,616 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":760,"blocks":8,"atimeMs":1724144496607.033,"mtimeMs":1724144496607.033,"ctimeMs":1724144496607.033,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T09:01:36.607Z","mtime":"2024-08-20T09:01:36.607Z","ctime":"2024-08-20T09:01:36.607Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:01:36,617 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":760,"blocks":8,"atimeMs":1724144496607.033,"mtimeMs":1724144496607.033,"ctimeMs":1724144496607.033,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T09:01:36.607Z","mtime":"2024-08-20T09:01:36.607Z","ctime":"2024-08-20T09:01:36.607Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:01:36,828 WARN 8652 [agent:development] reload worker because D:\nodepj\eggpj\app\controller\user.js change
+2024-08-20 17:01:38,257 WARN 8652 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 17:03:04,842 WARN 8652 [agent:development] reload worker because D:\nodepj\eggpj\app\controller\user.js change
+2024-08-20 17:03:04,639 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":757,"blocks":8,"atimeMs":1724144584632.616,"mtimeMs":1724144584632.616,"ctimeMs":1724144584632.616,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T09:03:04.633Z","mtime":"2024-08-20T09:03:04.633Z","ctime":"2024-08-20T09:03:04.633Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:03:04,639 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":757,"blocks":8,"atimeMs":1724144584632.616,"mtimeMs":1724144584632.616,"ctimeMs":1724144584632.616,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T09:03:04.633Z","mtime":"2024-08-20T09:03:04.633Z","ctime":"2024-08-20T09:03:04.633Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:03:04,640 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\app\\controller\\user.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":562949954190720,"size":757,"blocks":8,"atimeMs":1724144584632.616,"mtimeMs":1724144584632.616,"ctimeMs":1724144584632.616,"birthtimeMs":1724140419714.4326,"atime":"2024-08-20T09:03:04.633Z","mtime":"2024-08-20T09:03:04.633Z","ctime":"2024-08-20T09:03:04.633Z","birthtime":"2024-08-20T07:53:39.714Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:03:06,238 WARN 8652 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 17:04:27,196 WARN 8652 [agent:development] reload worker because D:\nodepj\eggpj\config\config.default.js change
+2024-08-20 17:04:26,982 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1490,"blocks":8,"atimeMs":1724144666964.9958,"mtimeMs":1724144666964.9958,"ctimeMs":1724144666964.9958,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:04:26.965Z","mtime":"2024-08-20T09:04:26.965Z","ctime":"2024-08-20T09:04:26.965Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:04:26,982 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1490,"blocks":8,"atimeMs":1724144666964.9958,"mtimeMs":1724144666964.9958,"ctimeMs":1724144666964.9958,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:04:26.965Z","mtime":"2024-08-20T09:04:26.965Z","ctime":"2024-08-20T09:04:26.965Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:04:26,984 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1490,"blocks":8,"atimeMs":1724144666964.9958,"mtimeMs":1724144666964.9958,"ctimeMs":1724144666964.9958,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:04:26.965Z","mtime":"2024-08-20T09:04:26.965Z","ctime":"2024-08-20T09:04:26.965Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:04:26,984 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1490,"blocks":8,"atimeMs":1724144666964.9958,"mtimeMs":1724144666964.9958,"ctimeMs":1724144666964.9958,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:04:26.965Z","mtime":"2024-08-20T09:04:26.965Z","ctime":"2024-08-20T09:04:26.965Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:04:28,565 WARN 8652 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 17:04:32,479 WARN 8652 [agent:development] reload worker because D:\nodepj\eggpj\config\config.default.js change
+2024-08-20 17:04:32,265 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1489,"blocks":8,"atimeMs":1724144672253.032,"mtimeMs":1724144672253.032,"ctimeMs":1724144672253.032,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:04:32.253Z","mtime":"2024-08-20T09:04:32.253Z","ctime":"2024-08-20T09:04:32.253Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:04:32,266 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1489,"blocks":8,"atimeMs":1724144672253.032,"mtimeMs":1724144672253.032,"ctimeMs":1724144672253.032,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:04:32.253Z","mtime":"2024-08-20T09:04:32.253Z","ctime":"2024-08-20T09:04:32.253Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:04:32,266 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1489,"blocks":8,"atimeMs":1724144672253.032,"mtimeMs":1724144672253.032,"ctimeMs":1724144672253.032,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:04:32.253Z","mtime":"2024-08-20T09:04:32.253Z","ctime":"2024-08-20T09:04:32.253Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:04:33,958 WARN 8652 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 17:04:53,113 WARN 8652 [agent:development] reload worker because D:\nodepj\eggpj\config\config.default.js change
+2024-08-20 17:04:52,900 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1490,"blocks":8,"atimeMs":1724144692891.9888,"mtimeMs":1724144692891.9888,"ctimeMs":1724144692891.9888,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:04:52.892Z","mtime":"2024-08-20T09:04:52.892Z","ctime":"2024-08-20T09:04:52.892Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:04:52,901 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1490,"blocks":8,"atimeMs":1724144692891.9888,"mtimeMs":1724144692891.9888,"ctimeMs":1724144692891.9888,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:04:52.892Z","mtime":"2024-08-20T09:04:52.892Z","ctime":"2024-08-20T09:04:52.892Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:04:52,901 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1490,"blocks":8,"atimeMs":1724144692891.9888,"mtimeMs":1724144692891.9888,"ctimeMs":1724144692891.9888,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:04:52.892Z","mtime":"2024-08-20T09:04:52.892Z","ctime":"2024-08-20T09:04:52.892Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:04:54,482 WARN 8652 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 17:08:05,232 WARN 8652 [agent:development] reload worker because D:\nodepj\eggpj\config\config.default.js change
+2024-08-20 17:08:05,025 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1589,"blocks":8,"atimeMs":1724144885018.514,"mtimeMs":1724144885018.514,"ctimeMs":1724144885018.514,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:08:05.019Z","mtime":"2024-08-20T09:08:05.019Z","ctime":"2024-08-20T09:08:05.019Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:08:05,026 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1589,"blocks":8,"atimeMs":1724144885018.514,"mtimeMs":1724144885018.514,"ctimeMs":1724144885018.514,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:08:05.019Z","mtime":"2024-08-20T09:08:05.019Z","ctime":"2024-08-20T09:08:05.019Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:08:05,028 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\config.default.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454322,"size":1589,"blocks":8,"atimeMs":1724144885018.514,"mtimeMs":1724144885018.514,"ctimeMs":1724144885018.514,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:08:05.019Z","mtime":"2024-08-20T09:08:05.019Z","ctime":"2024-08-20T09:08:05.019Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:08:06,735 WARN 8652 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2024-08-20 17:08:31,219 WARN 8652 [agent:development] reload worker because D:\nodepj\eggpj\config\plugin.js change
+2024-08-20 17:08:31,011 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\plugin.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454323,"size":221,"blocks":0,"atimeMs":1724144910991.3457,"mtimeMs":1724144910991.3457,"ctimeMs":1724144910991.3457,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:08:30.991Z","mtime":"2024-08-20T09:08:30.991Z","ctime":"2024-08-20T09:08:30.991Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:08:31,013 INFO 8652 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"D:\\nodepj\\eggpj\\config\\plugin.js","stat":{"dev":1242378810,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474977454323,"size":221,"blocks":0,"atimeMs":1724144910991.3457,"mtimeMs":1724144910991.3457,"ctimeMs":1724144910991.3457,"birthtimeMs":1724136875709.7231,"atime":"2024-08-20T09:08:30.991Z","mtime":"2024-08-20T09:08:30.991Z","ctime":"2024-08-20T09:08:30.991Z","birthtime":"2024-08-20T06:54:35.710Z"},"remove":false,"isDirectory":false,"isFile":true}
+2024-08-20 17:08:32,073 WARN 8652 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
