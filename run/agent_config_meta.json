@@ -1,326 +1,331 @@
 {
-  "keys": "D:\\nodepj\\eggpj\\config\\config.default.js",
-  "middleware": "D:\\nodepj\\eggpj\\config\\config.default.js",
-  "myAppName": "D:\\nodepj\\eggpj\\config\\config.default.js",
+  "keys": "D:\\nodepj\\github\\eggpj\\config\\config.default.js",
+  "middleware": "D:\\nodepj\\github\\eggpj\\config\\config.default.js",
+  "cors": {
+    "origin": "D:\\nodepj\\github\\eggpj\\config\\config.default.js",
+    "allowMethods": "D:\\nodepj\\github\\eggpj\\config\\config.default.js"
+  },
+  "myAppName": "D:\\nodepj\\github\\eggpj\\config\\config.default.js",
   "static": {
-    "prefix": "D:\\nodepj\\eggpj\\config\\config.default.js",
-    "dir": "D:\\nodepj\\eggpj\\config\\config.default.js",
-    "dynamic": "D:\\nodepj\\eggpj\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "D:\\nodepj\\eggpj\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "D:\\nodepj\\eggpj\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "D:\\nodepj\\eggpj\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "D:\\nodepj\\github\\eggpj\\config\\config.default.js",
+    "dir": "D:\\nodepj\\github\\eggpj\\config\\config.default.js",
+    "dynamic": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-static\\config\\config.default.js"
   },
   "mysql": {
     "client": {
-      "host": "D:\\nodepj\\eggpj\\config\\config.default.js",
-      "port": "D:\\nodepj\\eggpj\\config\\config.default.js",
-      "user": "D:\\nodepj\\eggpj\\config\\config.default.js",
-      "password": "D:\\nodepj\\eggpj\\config\\config.default.js",
-      "database": "D:\\nodepj\\eggpj\\config\\config.default.js"
+      "host": "D:\\nodepj\\github\\eggpj\\config\\config.default.js",
+      "port": "D:\\nodepj\\github\\eggpj\\config\\config.default.js",
+      "user": "D:\\nodepj\\github\\eggpj\\config\\config.default.js",
+      "password": "D:\\nodepj\\github\\eggpj\\config\\config.default.js",
+      "database": "D:\\nodepj\\github\\eggpj\\config\\config.default.js"
     },
-    "app": "D:\\nodepj\\eggpj\\config\\config.default.js",
-    "agent": "D:\\nodepj\\eggpj\\config\\config.default.js",
+    "app": "D:\\nodepj\\github\\eggpj\\config\\config.default.js",
+    "agent": "D:\\nodepj\\github\\eggpj\\config\\config.default.js",
     "default": {
-      "database": "D:\\nodepj\\eggpj\\node_modules\\egg-mysql\\config\\config.default.js",
-      "connectionLimit": "D:\\nodepj\\eggpj\\node_modules\\egg-mysql\\config\\config.default.js"
+      "database": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-mysql\\config\\config.default.js"
     }
   },
+  "bodyParser": {
+    "jsonLimit": "D:\\nodepj\\github\\eggpj\\config\\config.default.js",
+    "enable": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
+  },
   "security": {
-    "enable": "D:\\nodepj\\eggpj\\config\\config.default.js",
+    "enable": "D:\\nodepj\\github\\eggpj\\config\\config.default.js",
     "csrf": {
-      "exclude": "D:\\nodepj\\eggpj\\config\\config.default.js",
-      "tokenName": "D:\\nodepj\\eggpj\\config\\config.default.js",
-      "tokenLife": "D:\\nodepj\\eggpj\\config\\config.default.js",
-      "getToken": "D:\\nodepj\\eggpj\\config\\config.default.js",
-      "enable": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "type": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "rotateWhenInvalid": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "supportedRequests": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "refererWhiteList": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "exclude": "D:\\nodepj\\github\\eggpj\\config\\config.default.js",
+      "tokenName": "D:\\nodepj\\github\\eggpj\\config\\config.default.js",
+      "tokenLife": "D:\\nodepj\\github\\eggpj\\config\\config.default.js",
+      "getToken": "D:\\nodepj\\github\\eggpj\\config\\config.default.js",
+      "enable": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "type": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "rotateWhenInvalid": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "supportedRequests": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
       "cookieOptions": {
-        "signed": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
+        "signed": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
       }
     },
-    "domainWhiteList": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
-      "enable": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
     },
     "referrerPolicy": {
-      "enable": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "ipExceptionList": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "hostnameExceptionList": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
+      "ipBlackList": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "ipExceptionList": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "hostnameExceptionList": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
   "session": {
-    "maxAge": "D:\\nodepj\\eggpj\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "D:\\nodepj\\eggpj\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "D:\\nodepj\\eggpj\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "D:\\nodepj\\eggpj\\node_modules\\egg-session\\config\\config.default.js",
-    "logValue": "D:\\nodepj\\eggpj\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-session\\config\\config.default.js",
+    "logValue": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-session\\config\\config.default.js"
   },
   "helper": {
-    "shtml": "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "D:\\nodepj\\eggpj\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "D:\\nodepj\\eggpj\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "D:\\nodepj\\eggpj\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "D:\\nodepj\\eggpj\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "D:\\nodepj\\eggpj\\node_modules\\egg-onerror\\config\\config.default.js",
-    "templatePath": "D:\\nodepj\\eggpj\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "D:\\nodepj\\eggpj\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "D:\\nodepj\\eggpj\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "D:\\nodepj\\eggpj\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "D:\\nodepj\\eggpj\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieDomain": "D:\\nodepj\\eggpj\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "D:\\nodepj\\eggpj\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "D:\\nodepj\\eggpj\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "D:\\nodepj\\eggpj\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "D:\\nodepj\\eggpj\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "D:\\nodepj\\eggpj\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "D:\\nodepj\\eggpj\\node_modules\\egg-schedule\\config\\config.default.js"
+      "consoleLevel": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-schedule\\config\\config.default.js"
     }
   },
   "schedule": {
-    "directory": "D:\\nodepj\\eggpj\\node_modules\\egg-schedule\\config\\config.default.js"
+    "directory": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-schedule\\config\\config.default.js"
   },
   "multipart": {
-    "mode": "D:\\nodepj\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
-    "autoFields": "D:\\nodepj\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "D:\\nodepj\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultParamCharset": "D:\\nodepj\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "D:\\nodepj\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "D:\\nodepj\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "D:\\nodepj\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "D:\\nodepj\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "D:\\nodepj\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "D:\\nodepj\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "D:\\nodepj\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
-    "allowArrayField": "D:\\nodepj\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
-    "tmpdir": "D:\\nodepj\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
+    "mode": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultParamCharset": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
+    "allowArrayField": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
     "cleanSchedule": {
-      "cron": "D:\\nodepj\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
-      "disable": "D:\\nodepj\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js"
+      "cron": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js",
+      "disable": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-multipart\\config\\config.default.js"
     }
   },
   "development": {
-    "watchDirs": "D:\\nodepj\\eggpj\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "D:\\nodepj\\eggpj\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "D:\\nodepj\\eggpj\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "D:\\nodepj\\eggpj\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "D:\\nodepj\\eggpj\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideIgnore": "D:\\nodepj\\eggpj\\node_modules\\egg-development\\config\\config.default.js"
+    "watchDirs": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-development\\config\\config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "D:\\nodepj\\eggpj\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "D:\\nodepj\\eggpj\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "D:\\nodepj\\eggpj\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "D:\\nodepj\\eggpj\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "D:\\nodepj\\eggpj\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "D:\\nodepj\\eggpj\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "D:\\nodepj\\eggpj\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
   "view": {
-    "root": "D:\\nodepj\\eggpj\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "D:\\nodepj\\eggpj\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "D:\\nodepj\\eggpj\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultViewEngine": "D:\\nodepj\\eggpj\\node_modules\\egg-view\\config\\config.default.js",
-    "mapping": "D:\\nodepj\\eggpj\\node_modules\\egg-view\\config\\config.default.js"
+    "root": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-view\\config\\config.default.js"
   },
-  "env": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-  "name": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-  "cookies": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-  "maxIpsCount": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-  "maxProxyCount": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
+  "env": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
   "pkg": {
-    "name": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "version": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "description": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "private": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "name": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "private": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
     "egg": {
-      "declarations": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+      "declarations": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
     },
     "dependencies": {
-      "egg": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "egg-mysql": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "egg-scripts": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+      "egg": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "egg-mock": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "eslint": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "eslint-config-egg": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+      "egg-bin": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
     },
     "engines": {
-      "node": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+      "node": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
     },
     "scripts": {
-      "start": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "stop": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "dev": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "test": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "test:local": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "cov": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "lint": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "ci": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+      "start": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "test:local": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "cov": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "lint": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "ci": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
     },
     "repository": {
-      "type": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "url": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+      "type": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
     },
-    "author": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "license": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+    "author": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
   },
-  "baseDir": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "ignore": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
     "timing": {
-      "slowBootActionMinDuration": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+      "slowBootActionMinDuration": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "confusedConfigurations": {
-    "bodyparser": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "cacheControl": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
-  },
-  "bodyParser": {
-    "enable": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "textLimit": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "strict": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "queryString": {
-      "arrayLimit": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "depth": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
-    },
-    "onerror": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "cacheControl": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
   },
   "logger": {
-    "dir": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "env": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "level": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "dir": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "enablePerformanceTimer": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "enableFastContextLogger": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+    "allowDebugAtProd": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "enablePerformanceTimer": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "enableFastContextLogger": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheLookupInterval": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
     },
-    "useHttpClientNext": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+    "useHttpClientNext": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
   },
   "meta": {
-    "enable": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "logging": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+    "enable": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
   },
-  "coreMiddleware": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-  "serverTimeout": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "port": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+      "path": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js",
-    "responseTimeout": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+    "maxWaitTime": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
   },
-  "onClientError": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\config.default.js"
+  "onClientError": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\config.default.js"
 }

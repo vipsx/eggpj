@@ -166,3 +166,9 @@
 2024-08-20 17:08:06,474 INFO 11880 [egg-schedule]: register schedule D:\nodepj\eggpj\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2024-08-20 17:08:06,474 INFO 11880 [egg-schedule]: register schedule D:\nodepj\eggpj\node_modules\egg-logrotator\app\schedule\clean_log.js
 2024-08-20 17:08:06,474 INFO 11880 [egg-schedule]: register schedule D:\nodepj\eggpj\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2024-08-20 17:48:30,240 INFO 11396 [Timer] D:\nodepj\github\eggpj\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 38489763ms at 2024-08-21 04:30:00.003
+2024-08-20 17:48:30,240 INFO 11396 [Timer] D:\nodepj\github\eggpj\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 22289760ms at 2024-08-21 00:00:00.000
+2024-08-20 17:48:30,240 INFO 11396 [Timer] D:\nodepj\github\eggpj\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 22290760ms at 2024-08-21 00:00:01.000
+2024-08-20 17:48:29,959 INFO 5080 [egg-schedule]: register schedule D:\nodepj\github\eggpj\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2024-08-20 17:48:29,960 INFO 5080 [egg-schedule]: register schedule D:\nodepj\github\eggpj\node_modules\egg-logrotator\app\schedule\clean_log.js
+2024-08-20 17:48:29,960 INFO 5080 [egg-schedule]: register schedule D:\nodepj\github\eggpj\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

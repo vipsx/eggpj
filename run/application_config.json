@@ -116,26 +116,27 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "D:\\nodepj\\eggpj\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "D:\\nodepj\\eggpj\\node_modules\\egg-session\\config\\locales",
-        "D:\\nodepj\\eggpj\\node_modules\\egg-security\\config\\locales",
-        "D:\\nodepj\\eggpj\\node_modules\\egg-jsonp\\config\\locales",
-        "D:\\nodepj\\eggpj\\node_modules\\egg-onerror\\config\\locales",
-        "D:\\nodepj\\eggpj\\node_modules\\egg-i18n\\config\\locales",
-        "D:\\nodepj\\eggpj\\node_modules\\egg-watcher\\config\\locales",
-        "D:\\nodepj\\eggpj\\node_modules\\egg-schedule\\config\\locales",
-        "D:\\nodepj\\eggpj\\node_modules\\egg-multipart\\config\\locales",
-        "D:\\nodepj\\eggpj\\node_modules\\egg-development\\config\\locales",
-        "D:\\nodepj\\eggpj\\node_modules\\egg-logrotator\\config\\locales",
-        "D:\\nodepj\\eggpj\\node_modules\\egg-static\\config\\locales",
-        "D:\\nodepj\\eggpj\\node_modules\\egg-view\\config\\locales",
-        "D:\\nodepj\\eggpj\\node_modules\\egg-mysql\\config\\locales",
-        "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\locales",
-        "D:\\nodepj\\eggpj\\config\\locales"
+        "D:\\nodepj\\github\\eggpj\\node_modules\\egg-session\\config\\locales",
+        "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security\\config\\locales",
+        "D:\\nodepj\\github\\eggpj\\node_modules\\egg-jsonp\\config\\locales",
+        "D:\\nodepj\\github\\eggpj\\node_modules\\egg-onerror\\config\\locales",
+        "D:\\nodepj\\github\\eggpj\\node_modules\\egg-i18n\\config\\locales",
+        "D:\\nodepj\\github\\eggpj\\node_modules\\egg-watcher\\config\\locales",
+        "D:\\nodepj\\github\\eggpj\\node_modules\\egg-schedule\\config\\locales",
+        "D:\\nodepj\\github\\eggpj\\node_modules\\egg-multipart\\config\\locales",
+        "D:\\nodepj\\github\\eggpj\\node_modules\\egg-development\\config\\locales",
+        "D:\\nodepj\\github\\eggpj\\node_modules\\egg-logrotator\\config\\locales",
+        "D:\\nodepj\\github\\eggpj\\node_modules\\egg-static\\config\\locales",
+        "D:\\nodepj\\github\\eggpj\\node_modules\\egg-view\\config\\locales",
+        "D:\\nodepj\\github\\eggpj\\node_modules\\egg-mysql\\config\\locales",
+        "D:\\nodepj\\github\\eggpj\\node_modules\\egg-cors\\config\\locales",
+        "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\locales",
+        "D:\\nodepj\\github\\eggpj\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -146,8 +147,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "D:\\nodepj\\eggpj\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "D:\\nodepj\\eggpj\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -205,7 +206,7 @@
       "maxFiles": 1000
     },
     "view": {
-      "root": "D:\\nodepj\\eggpj\\app\\view",
+      "root": "D:\\nodepj\\github\\eggpj\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -225,6 +226,11 @@
         "password": "<String len: 11>",
         "database": "eggtest"
       }
+    },
+    "cors": {
+      "origin": "*",
+      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH",
+      "hasCustomOriginHandler": true
     },
     "env": "local",
     "name": "eggshow",
@@ -246,6 +252,7 @@
       },
       "dependencies": {
         "egg": "^3.17.5",
+        "egg-cors": "^3.0.1",
         "egg-mysql": "^4.0.0",
         "egg-scripts": "2"
       },
@@ -275,9 +282,9 @@
       "author": "sx",
       "license": "MIT"
     },
-    "baseDir": "D:\\nodepj\\eggpj",
+    "baseDir": "D:\\nodepj\\github\\eggpj",
     "HOME": "C:\\Users\\alcen",
-    "rundir": "D:\\nodepj\\eggpj\\run",
+    "rundir": "D:\\nodepj\\github\\eggpj\\run",
     "dump": {
       "ignore": "<Set>",
       "timing": {
@@ -313,7 +320,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "D:\\nodepj\\eggpj\\logs\\eggshow",
+      "dir": "D:\\nodepj\\github\\eggpj\\logs\\eggshow",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -360,6 +367,7 @@
       "logging": false
     },
     "coreMiddleware": [
+      "cors",
       "meta",
       "siteFile",
       "notfound",
@@ -386,10 +394,6 @@
     },
     "onClientError": null,
     "middleware": [],
-    "cors": {
-      "origin": "*",
-      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH"
-    },
     "myAppName": "egg",
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
@@ -405,8 +409,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\nodepj\\eggpj\\node_modules\\egg-onerror",
+      "from": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-onerror",
       "version": "2.2.0"
     },
     "session": {
@@ -416,8 +420,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\nodepj\\eggpj\\node_modules\\egg-session",
+      "from": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-session",
       "version": "3.3.0"
     },
     "i18n": {
@@ -427,8 +431,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\nodepj\\eggpj\\node_modules\\egg-i18n",
+      "from": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -438,8 +442,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\nodepj\\eggpj\\node_modules\\egg-watcher",
+      "from": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-watcher",
       "version": "3.1.1",
       "dependents": [
         "development"
@@ -454,8 +458,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\nodepj\\eggpj\\node_modules\\egg-multipart",
+      "from": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-multipart",
       "version": "3.4.0"
     },
     "security": {
@@ -467,8 +471,8 @@
         "session"
       ],
       "env": [],
-      "from": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\nodepj\\eggpj\\node_modules\\egg-security",
+      "from": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-security",
       "version": "3.6.0"
     },
     "development": {
@@ -482,8 +486,8 @@
       "env": [
         "local"
       ],
-      "from": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\nodepj\\eggpj\\node_modules\\egg-development",
+      "from": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-development",
       "version": "3.0.0"
     },
     "logrotator": {
@@ -495,8 +499,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\nodepj\\eggpj\\node_modules\\egg-logrotator",
+      "from": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -506,8 +510,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\nodepj\\eggpj\\node_modules\\egg-schedule",
+      "from": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-schedule",
       "version": "4.0.1",
       "dependents": [
         "logrotator"
@@ -520,8 +524,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\nodepj\\eggpj\\config\\plugin.js",
-      "path": "D:\\nodepj\\eggpj\\node_modules\\egg-static",
+      "from": "D:\\nodepj\\github\\eggpj\\config\\plugin.js",
+      "path": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-static",
       "version": "2.3.1"
     },
     "jsonp": {
@@ -533,8 +537,8 @@
         "security"
       ],
       "env": [],
-      "from": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\nodepj\\eggpj\\node_modules\\egg-jsonp",
+      "from": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -544,8 +548,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\nodepj\\eggpj\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\nodepj\\eggpj\\node_modules\\egg-view",
+      "from": "D:\\nodepj\\github\\eggpj\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-view",
       "version": "2.1.4"
     },
     "mysql": {
@@ -555,14 +559,25 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\nodepj\\eggpj\\config\\plugin.js",
-      "path": "D:\\nodepj\\eggpj\\node_modules\\egg-mysql",
+      "from": "D:\\nodepj\\github\\eggpj\\config\\plugin.js",
+      "path": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-mysql",
       "version": "4.0.0"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "D:\\nodepj\\github\\eggpj\\config\\plugin.js",
+      "path": "D:\\nodepj\\github\\eggpj\\node_modules\\egg-cors",
+      "version": "3.0.1"
     }
   },
   "appInfo": {
     "name": "eggshow",
-    "baseDir": "D:\\nodepj\\eggpj",
+    "baseDir": "D:\\nodepj\\github\\eggpj",
     "env": "local",
     "scope": "",
     "HOME": "C:\\Users\\alcen",
@@ -576,6 +591,7 @@
       },
       "dependencies": {
         "egg": "^3.17.5",
+        "egg-cors": "^3.0.1",
         "egg-mysql": "^4.0.0",
         "egg-scripts": "2"
       },
@@ -605,6 +621,6 @@
       "author": "sx",
       "license": "MIT"
     },
-    "root": "D:\\nodepj\\eggpj"
+    "root": "D:\\nodepj\\github\\eggpj"
   }
 }
